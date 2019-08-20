@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block site_nav %}
+		{% if page and page.meta and page.meta.jumbotron %}
+		<div class="md-grid" data-md-component="container">
+			<div class="md-content">
+				<div class="md-content__inner md-typeset">
+					<img src="res/logo_header.png" style="width:800px;">
+				</div>
+			</div>
+		</div>
+		{% endif %}
+
+            <!-- Main navigation -->
+            {% if nav %}
+              <div class="md-sidebar md-sidebar--primary"
+                  data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    {% include "partials/nav.html" %}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+
+            <!-- Table of contents -->
+            {% if page.toc %}
+              <div class="md-sidebar md-sidebar--secondary"
+                  data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    {% include "partials/toc.html" %}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+{% endblock %}

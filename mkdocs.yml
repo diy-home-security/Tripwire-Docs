@@ -1,0 +1,40 @@
+site_name: DIY Home Security
+theme:
+  name: material
+  custom_dir: material_overrides/
+  language: en
+  feature:
+    tabs: true
+  palette:
+    primary: white
+    accent: blue
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
+  # Default values, taken from mkdocs_theme.yml
+  language: de
+  feature:
+    tabs: false
+  logo: 'res/logo.svg'
+  favicon: 'res/favicon.png'
+
+markdown_extensions:
+  - admonition
+  - toc:
+     permalink: "#"
+
+repo_name: 'diy-home-security/Tripwire-Docs'
+repo_url: 'https://github.com/diy-home-security/Tripwire-Docs'
+
+# Copyright
+copyright: 'Copyright &copy; 2019 DIY Home Security (Clipland GmbH)'
+
+
+use_directory_urls: false
+nav:
+    - 'Start': 'index.md'
+    - 'Tipwire Handbuch': 'tripwire/handbuch.md'
+
+extra_css:
+    - res/extra.css
+

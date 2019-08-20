@@ -1,0 +1,30 @@
+.md-nav__link--hover {
+	color: #3eb7fd;
+}
+.md-nav__link--active {
+	color: #028ee0;
+}
+.md-header-nav__topic {
+	color: rgba(0,0,0,.54) !important;
+}
+
+.md-footer-nav {
+	background-color: #3eb7fd;
+}
+
+.md-footer-meta {
+	background-color: #028ee0;
+}
+
+.footer-right {
+    max-width: 25%;
+    float: right;
+    margin: 0 .6rem;
+    padding: .4rem 0;
+    color: hsla(0,0%,100%,.3);
+    font-size: .64rem;
+}
+
+button[data-md-color-accent], button[data-md-color-primary] {
+	padding: .75rem 1.25rem; width: auto;
+}

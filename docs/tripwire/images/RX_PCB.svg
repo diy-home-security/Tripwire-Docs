@@ -1,0 +1,2965 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg2820"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="RX_PCB.svg">
+  <defs
+     id="defs2814">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5719"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#028ee0;fill-opacity:0.78431373;fill-rule:evenodd;stroke:#028ee0;stroke-width:1.00000003pt;stroke-opacity:0.78431373"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5717"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4101"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4099"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#028ee0;fill-opacity:0.78431373;fill-rule:evenodd;stroke:#028ee0;stroke-width:1.00000003pt;stroke-opacity:0.78431373"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3593"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path3591"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#028ee0;fill-opacity:0.78431373;fill-rule:evenodd;stroke:#028ee0;stroke-width:1.00000003pt;stroke-opacity:0.78431373"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1688"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#0043df;stroke-width:1pt;stroke-opacity:1;fill:#0043df;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1587"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1585"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker6656"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6654" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker6574"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6572" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6492"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path6490"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path6152"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6656-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6654-3" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6574-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6572-3" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6155"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6152-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6656-5-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6654-3-4" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6656-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6654-9" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-7-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6152-8-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1688-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#0043df;fill-opacity:1;fill-rule:evenodd;stroke:#0043df;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1688-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#0043df;fill-opacity:1;fill-rule:evenodd;stroke:#0043df;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-7-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1688-0-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#0043df;fill-opacity:1;fill-rule:evenodd;stroke:#0043df;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-9-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1688-1-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#0043df;fill-opacity:1;fill-rule:evenodd;stroke:#0043df;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1688-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#0043df;fill-opacity:1;fill-rule:evenodd;stroke:#0043df;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-7-3-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1688-0-6-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#0043df;fill-opacity:1;fill-rule:evenodd;stroke:#0043df;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="213.00337"
+     inkscape:cy="777.51118"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer9"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1680"
+     inkscape:window-height="1004"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="105.43783,217.5574"
+       orientation="0,1"
+       id="guide5961"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="98.714868,213.78866"
+       orientation="0,1"
+       id="guide5963"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="104.13244,207.13096"
+       orientation="0,1"
+       id="guide5965"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="115.3268,198.7149"
+       orientation="0,1"
+       id="guide5967"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="105.73884,179.5387"
+       orientation="0,1"
+       id="guide5989"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2817">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Ebene 2"
+     style="display:none;opacity:0.16600001">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5770"
+       width="33.167404"
+       height="51.121277"
+       x="109.04613"
+       y="69.080353"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png" />
+    <g
+       id="g5778"
+       transform="translate(5.2477774,-4.6302083)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-7"
+       transform="translate(7.9469974,-4.6264493)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-0"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-8"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-6"
+       transform="translate(10.214858,-4.6264493)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-2"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-79"
+       transform="translate(12.482718,-4.6264493)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-3"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-2"
+       transform="translate(21.175349,1.7632793)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-8"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-3"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-0"
+       transform="translate(21.175349,4.0311397)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-8"
+       transform="translate(14.852473,5.5320193)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-1"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-5"
+       transform="translate(12.584613,5.5320193)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-4"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-92"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-57"
+       transform="translate(10.316753,5.5320193)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-49"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-94"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-59"
+       transform="translate(8.0488928,5.5320193)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-35"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-70"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-81"
+       transform="translate(5.7810324,5.5320193)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-99"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-78"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-25"
+       transform="translate(3.513172,5.5320193)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-34"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-90"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-20"
+       transform="translate(1.2453116,5.5320193)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-19"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-6"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-21"
+       transform="translate(-1.0225488,5.5320193)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-20"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-73"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-1"
+       transform="translate(-3.2904092,5.5320193)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-190"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-5"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-67"
+       transform="translate(15.662383,20.605779)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-7"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-40"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-64"
+       transform="translate(17.930243,20.605779)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-74"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-85"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-82"
+       transform="translate(20.198103,20.605779)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-0"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-66"
+       transform="translate(-1.7360946,-0.50458113)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-46"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-2"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-89"
+       transform="translate(13.364633,-0.50458113)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-60"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-701"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-01"
+       transform="translate(15.329981,39.781979)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-37"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-72"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-645"
+       transform="translate(17.597841,39.781979)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-202"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-909"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-9"
+       transform="translate(1.1119777,12.189719)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-45"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-10"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3"
+       transform="translate(3.3798381,12.189719)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04"
+       transform="translate(5.6476985,12.189719)"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-60"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.20269467;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6041"
+       width="19.49338"
+       height="3.4270816"
+       x="112.23361"
+       y="76.659454"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6043"
+       width="2.8348215"
+       height="4.1577449"
+       x="124.92113"
+       y="89.869034"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6045"
+       cx="135.83519"
+       cy="109.28757"
+       r="5.7168856"
+       inkscape:export-xdpi="151.95"
+       inkscape:export-ydpi="151.95"
+       inkscape:export-filename="./TX_PCB_abstract_power_connector.png" />
+    <image
+       sodipodi:absref="/home/daniel/media/Workbook/DIY_Home_Security_(Arduino_Smart_Home)/Tripwire-RX-Base/PCB_Screenshot.png"
+       y="68.016716"
+       x="17.448893"
+       id="image2527"
+       xlink:href="file:///home/daniel/media/Workbook/DIY_Home_Security_(Arduino_Smart_Home)/Tripwire-RX-Base/PCB_Screenshot.png"
+       preserveAspectRatio="none"
+       height="51.617882"
+       width="71.724464" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="TX Base Board">
+    <rect
+       style="fill:none;fill-opacity:0.78431373;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2533"
+       width="67.563248"
+       height="46.869045"
+       x="19.654762"
+       y="70.592255"
+       ry="2.9293156"
+       inkscape:export-filename="./schalter.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+    <circle
+       style="fill:none;fill-opacity:0.78431373;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2535"
+       cx="22.347843"
+       cy="73.190849"
+       r="1.1811756"
+       inkscape:export-filename="./schalter.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+    <circle
+       style="fill:none;fill-opacity:0.78431373;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2535-6"
+       cx="84.477676"
+       cy="73.04911"
+       r="1.1811756"
+       inkscape:export-filename="./schalter.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+    <circle
+       style="fill:none;fill-opacity:0.78431373;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2535-7"
+       cx="84.572166"
+       cy="115.28793"
+       r="1.1811756"
+       inkscape:export-filename="./schalter.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+    <circle
+       style="display:inline;opacity:1;fill:none;fill-opacity:0.78431373;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2535-3"
+       cx="21.733629"
+       cy="115.09896"
+       r="1.1811756"
+       inkscape:export-filename="./schalter.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+    <g
+       id="g5778-9-5-0"
+       transform="matrix(0.71093748,0,0,0.71093748,-46.55456,18.054296)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-45-3-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-10-5-3"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6"
+       transform="matrix(0.71093748,0,0,0.71093748,-44.942253,18.054296)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2"
+       transform="matrix(0.71093748,0,0,0.71093748,-43.329946,18.054296)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-60-7-1"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8"
+       transform="matrix(0.71093749,0,0,0.71093749,-41.717641,18.054295)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-60-7-1-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-9-5-0-2"
+       transform="matrix(0.71093748,0,0,0.71093748,-24.596506,18.198989)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-45-3-9-0"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-10-5-3-2"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-3"
+       transform="matrix(0.71093748,0,0,0.71093748,-22.984198,18.198989)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-7"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-5"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-9"
+       transform="matrix(0.71093748,0,0,0.71093748,-21.371891,18.198989)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-2"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-60-7-1-2"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-8"
+       transform="matrix(0.71093748,0,0,0.71093748,-19.759586,18.198989)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-60-7-1-9-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-9-5-0-3"
+       transform="matrix(0.71093748,0,0,0.71093748,-54.385754,15.694897)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-45-3-9-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-10-5-3-1"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2"
+       transform="matrix(0.71093748,0,0,0.71093748,-54.427092,18.765954)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-1"
+       transform="matrix(0.71093748,0,0,0.71093748,-50.07446,15.671274)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-60-7-1-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7"
+       transform="matrix(0.71093748,0,0,0.71093748,-50.470151,16.332732)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="115.65864"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="116.79256"
+         id="path5774-60-7-1-9-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5"
+       transform="matrix(0.71093748,0,0,0.71093748,-53.390612,26.053808)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6"
+       transform="matrix(0.71093748,0,0,0.71093748,-49.433673,23.620586)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="115.65864"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="116.79256"
+         id="path5774-60-7-1-9-4-0"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-6"
+       transform="matrix(0.71093748,0,0,0.71093748,-57.666468,33.211732)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-3"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-2"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-0"
+       transform="matrix(0.71093748,0,0,0.71093748,-52.882706,30.802134)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="115.65864"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="116.79256"
+         id="path5774-60-7-1-9-4-1"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-55"
+       transform="matrix(0.71093748,0,0,0.71093748,-49.965203,33.306226)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-4"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4"
+       transform="matrix(0.71093748,0,0,0.71093748,-34.621587,43.252912)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7"
+       transform="matrix(0.71093748,0,0,0.71093748,-30.664648,40.81969)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-8"
+       transform="matrix(0.71093748,0,0,0.71093748,-34.529802,39.819872)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-8"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-3"
+       transform="matrix(0.71093748,0,0,0.71093748,-30.572863,37.38665)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-9"
+       transform="matrix(0,-0.71093748,0.71093748,0,-3.006807,188.69095)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-2"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-0"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-6"
+       transform="matrix(0,-0.71093748,0.71093748,0,-5.440029,184.73401)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-8"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2"
+       transform="matrix(0.71093748,0,0,0.71093748,-26.29456,52.732331)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4"
+       transform="matrix(0.71093748,0,0,0.71093748,-15.756109,50.299109)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-0"
+       transform="matrix(0.71093748,0,0,0.71093748,-26.194333,26.172421)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-4"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-8"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-7"
+       transform="matrix(0.71093748,0,0,0.71093748,-15.655883,23.739199)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-2"
+       transform="matrix(0.71093748,0,0,0.71093748,-8.3875007,40.88895)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-7"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-2"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-2"
+       transform="matrix(0.71093748,0,0,0.71093748,-7.6111057,38.432106)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-1"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-06"
+       transform="matrix(0.71093748,0,0,0.71093748,-5.1628867,40.88895)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-5"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-9"
+       transform="matrix(0.71093748,0,0,0.71093748,-4.3864917,38.432106)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-4"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-1"
+       transform="matrix(0.71093748,0,0,0.71093748,4.4561487,40.978084)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.553947"
+         x="106.0994"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-15"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.640617"
+         cx="107.23331"
+         id="path5774-60-7-1-9-4-0-6-5-97"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-7"
+       transform="matrix(0.71093748,0,0,0.71093748,-6.1758097,38.006016)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-3"
+       transform="matrix(0.71093748,0,0,0.71093748,-5.3994151,35.549172)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-65"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-6"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-7-3"
+       transform="matrix(0.50270871,-0.50270871,0.50270871,0.50270871,-23.081761,110.29709)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-6-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-7-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-3-8"
+       transform="matrix(0.50270871,-0.50270871,0.50270871,0.50270871,-24.270017,108.01084)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-65-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-6-2"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-7-3-9"
+       transform="matrix(0.5027087,-0.5027087,0.5027087,0.5027087,-26.890351,107.15667)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-6-9-3"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-7-4-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-3-8-0"
+       transform="matrix(0.5027087,-0.5027087,0.5027087,0.5027087,-26.875892,103.68442)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-65-1-8"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-6-2-8"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-9-5"
+       transform="matrix(0.71093748,0,0,0.71093748,-4.2834702,52.736564)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-4-0"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-9-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-1-6"
+       transform="matrix(0.71093748,0,0,0.71093748,4.5591728,55.282543)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.553947"
+         x="106.0994"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-15-3"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.640617"
+         cx="107.23331"
+         id="path5774-60-7-1-9-4-0-6-5-97-8"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-2-8"
+       transform="matrix(0.71093748,0,0,0.71093748,-45.405865,59.3039)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-7-4"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-2-8"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-2-1"
+       transform="matrix(0.71093748,0,0,0.71093748,-44.629471,56.847056)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-6-0"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-1-3"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-06-0"
+       transform="matrix(0.71093748,0,0,0.71093748,-42.181253,59.3039)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-1-4"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-5-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-2-4"
+       transform="matrix(0,-0.71093748,0.71093748,0,-14.86423,188.75348)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623433"
+       inkscape:transform-center-y="7.1933659">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-7-47"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-2-6"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-2-3"
+       transform="matrix(0,-0.71093748,0.71093748,0,-17.321074,187.97708)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623387"
+       inkscape:transform-center-y="5.5810536">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-6-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-1-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-06-5"
+       transform="matrix(0,-0.71093748,0.71093748,0,-14.86423,185.52887)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623433"
+       inkscape:transform-center-y="3.9687559">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-1-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-5-6"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-9-2"
+       transform="matrix(0,-0.71093748,0.71093748,0,-17.321074,184.75247)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623387"
+       inkscape:transform-center-y="2.3564436">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-4-1"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-9-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-1-8"
+       transform="matrix(0,-0.71093748,0.71093748,0,-14.775095,175.90983)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623637"
+       inkscape:transform-center-y="0.74413406">
+      <rect
+         y="77.553947"
+         x="106.0994"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-15-5"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.640617"
+         cx="107.23331"
+         id="path5774-60-7-1-9-4-0-6-5-97-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-55-5"
+       transform="matrix(0.71093748,0,0,0.71093748,-48.282026,33.306225)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-4-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-7-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-2-4-5"
+       transform="matrix(0,-0.71093748,0.71093748,0,-14.86423,193.5904)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623433"
+       inkscape:transform-center-y="7.1933659">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-7-47-3"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-2-6-8"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-2-3-8"
+       transform="matrix(0,-0.71093748,0.71093748,0,-17.321074,192.814)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623387"
+       inkscape:transform-center-y="5.5810536">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-6-1-3"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-1-7-1"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-06-5-8"
+       transform="matrix(0,-0.71093748,0.71093748,0,-14.86423,190.36579)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623433"
+       inkscape:transform-center-y="3.9687559">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-1-9-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-5-6-6"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-2-4-4"
+       transform="matrix(0,-0.71093748,0.71093748,0,-30.239785,188.63748)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623433"
+       inkscape:transform-center-y="7.1933659">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-7-47-33"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-2-6-3"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-2-3-86"
+       transform="matrix(0,-0.71093748,0.71093748,0,-32.696629,187.86108)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623387"
+       inkscape:transform-center-y="5.5810536">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-6-1-0"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-1-7-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-06-5-88"
+       transform="matrix(0,-0.71093748,0.71093748,0,-30.239785,185.41287)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623433"
+       inkscape:transform-center-y="3.9687559">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-1-9-8"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-5-6-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-9-2-7"
+       transform="matrix(0,-0.71093748,0.71093748,0,-32.696629,184.63647)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623387"
+       inkscape:transform-center-y="2.3564436">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-4-1-7"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-9-7-6"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-1-8-4"
+       transform="matrix(0,-0.71093748,0.71093748,0,-30.15065,175.79383)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623637"
+       inkscape:transform-center-y="0.74413406">
+      <rect
+         y="77.553947"
+         x="106.0994"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-15-5-3"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.640617"
+         cx="107.23331"
+         id="path5774-60-7-1-9-4-0-6-5-97-7-0"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-2-4-5-3"
+       transform="matrix(0,-0.71093748,0.71093748,0,-30.239785,193.4744)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623433"
+       inkscape:transform-center-y="7.1933659">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-7-47-3-0"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-2-6-8-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-04-1-2-8-7-6-7-4-2-3-8-2"
+       transform="matrix(0,-0.71093748,0.71093748,0,-32.696629,192.698)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623387"
+       inkscape:transform-center-y="5.5810536">
+      <rect
+         y="81.135101"
+         x="116.26954"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-67-2-6-7-8-1-8-9-6-1-3-5"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="82.221771"
+         cx="117.40346"
+         id="path5774-60-7-1-9-4-0-6-5-1-7-1-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5778-3-6-6-2-5-4-2-06-5-8-0"
+       transform="matrix(0,-0.71093748,0.71093748,0,-30.239785,190.24979)"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       style="display:inline;opacity:1"
+       inkscape:transform-center-x="-0.23623433"
+       inkscape:transform-center-y="3.9687559">
+      <rect
+         y="77.679321"
+         x="115.09375"
+         height="2.2678571"
+         width="2.2678571"
+         id="rect5772-78-2-0-9-0-3-6-1-9-9-5"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="0.73232883"
+         cy="78.765991"
+         cx="116.22768"
+         id="path5774-86-9-6-3-3-0-6-5-6-6-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g3446"
+       inkscape:export-filename="./schalter.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999">
+      <rect
+         transform="rotate(-90)"
+         y="46.889721"
+         x="-108.62907"
+         height="3.3368211"
+         width="1.6123046"
+         id="rect5772-78-2-0-9-0-3-2-6"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.27060559;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         ry="0.3528448"
+         y="107.47158"
+         x="47.31789"
+         height="0.70568961"
+         width="2.5513394"
+         id="rect3442"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.34468088;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(0.15355014,3.8978818)"
+       id="g3446-2"
+       inkscape:export-filename="./schalter.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999">
+      <rect
+         transform="rotate(-90)"
+         y="46.889721"
+         x="-108.62907"
+         height="3.3368211"
+         width="1.6123046"
+         id="rect5772-78-2-0-9-0-3-2-6-2"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.27060559;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         ry="0.3528448"
+         y="107.47158"
+         x="47.31789"
+         height="0.70568961"
+         width="2.5513394"
+         id="rect3442-4"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.34468088;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="rotate(-90,51.198059,107.28548)"
+       id="g3446-7"
+       inkscape:export-filename="./schalter.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999">
+      <rect
+         transform="rotate(-90)"
+         y="46.889721"
+         x="-108.62907"
+         height="3.3368211"
+         width="1.6123046"
+         id="rect5772-78-2-0-9-0-3-2-6-7"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.27060559;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         ry="0.3528448"
+         y="107.47158"
+         x="47.31789"
+         height="0.70568961"
+         width="2.5513394"
+         id="rect3442-5"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.34468088;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Platzierungen Buchsenleisten"
+     style="display:none">
+    <rect
+       style="fill:#028ee0;fill-opacity:0.78299776;stroke:#000000;stroke-width:0.05899548;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6067-9-8"
+       width="7.3861179"
+       height="8.1456432"
+       x="65.326035"
+       y="-130.35767"
+       transform="rotate(90)"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-ydpi="176.74001" />
+    <rect
+       style="fill:#028ee0;fill-opacity:0.78299776;stroke:#000000;stroke-width:0.05291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6067"
+       width="7.3921967"
+       height="6.5481048"
+       x="138.53696"
+       y="78.37352"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-ydpi="176.74001" />
+    <rect
+       style="display:inline;fill:#028ee0;fill-opacity:0.78523494;stroke:none;stroke-width:0.03573439;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6067-7-5"
+       width="8.6006918"
+       height="2.5665138"
+       x="73.217384"
+       y="95.747856"
+       inkscape:export-filename="./text6922.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6656-5-7)"
+       d="m 93.051735,90.841895 c 0.935443,-0.53454 16.774195,-5.92864 16.774195,-5.92864"
+       id="path6144-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-ydpi="176.74001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="90.379036"
+       y="92.044609"
+       id="text6922-8"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-ydpi="176.74001"><tspan
+         sodipodi:role="line"
+         id="tspan6920-3"
+         x="90.379036"
+         y="92.044609"
+         style="stroke-width:0.26458332px">B</tspan></text>
+    <rect
+       style="fill:#028ee0;fill-opacity:0.78299776;stroke:none;stroke-width:0.04575828;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6067-9"
+       width="14.211061"
+       height="2.5469306"
+       x="98.095184"
+       y="24.612539"
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:export-filename="./text6922.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+    <rect
+       style="fill:#028ee0;fill-opacity:0.78523494;stroke:#000000;stroke-width:0.04151697;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6067-7"
+       width="7.3921967"
+       height="4.0307136"
+       x="130.60684"
+       y="97.261169"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-ydpi="176.74001" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6656-1)"
+       d="m 97.553376,103.09595 c 0.935443,-0.53454 16.774194,-5.92864 16.774194,-5.92864"
+       id="path6144"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-ydpi="176.74001" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6574-9)"
+       d="m 143.791,58.194677 -10.55714,7.082642"
+       id="path6146"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-ydpi="176.74001" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart-7)"
+       d="m 147.39914,82.1153 c 12.56167,5.211754 12.56167,5.211754 12.56167,5.211754"
+       id="path6148"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-ydpi="176.74001" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 153.81361,107.63954 140.3165,99.888722"
+       id="path6150"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-ydpi="176.74001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="144.05827"
+       y="58.862854"
+       id="text6908"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-ydpi="176.74001"><tspan
+         sodipodi:role="line"
+         id="tspan6906"
+         x="144.05827"
+         y="58.862854"
+         style="stroke-width:0.26458332px">C</tspan><tspan
+         sodipodi:role="line"
+         x="144.05827"
+         y="63.272575"
+         style="stroke-width:0.26458332px"
+         id="tspan6910" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="160.22809"
+       y="88.52977"
+       id="text6914"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-ydpi="176.74001"><tspan
+         sodipodi:role="line"
+         id="tspan6912"
+         x="160.22809"
+         y="88.52977"
+         style="stroke-width:0.26458332px">D</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="154.21452"
+       y="109.51041"
+       id="text6918"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-ydpi="176.74001"><tspan
+         sodipodi:role="line"
+         id="tspan6916"
+         x="154.21452"
+         y="109.51041"
+         style="stroke-width:0.26458332px">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="94.880676"
+       y="104.29866"
+       id="text6922"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-ydpi="176.74001"><tspan
+         sodipodi:role="line"
+         id="tspan6920"
+         x="94.880676"
+         y="104.29866"
+         style="stroke-width:0.26458332px">A</tspan></text>
+    <rect
+       style="display:inline;fill:#028ee0;fill-opacity:0.78523494;stroke:none;stroke-width:0.02056153;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6067-7-5-4"
+       width="3.6320541"
+       height="2.012162"
+       x="78.3769"
+       y="110.41855"
+       inkscape:export-filename="./text6922.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+    <rect
+       style="display:inline;fill:#028ee0;fill-opacity:0.78299776;stroke:none;stroke-width:0.04575828;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6067-9-81"
+       width="14.211061"
+       height="2.5469306"
+       x="98.260544"
+       y="39.878693"
+       transform="matrix(0,1,1,0,0,0)"
+       inkscape:export-filename="./text6922.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+  </g>
+  <g
+     style="display:none"
+     inkscape:label="Platzierungen Widerstände"
+     id="g3574"
+     inkscape:groupmode="layer">
+    <rect
+       inkscape:export-ydpi="176.74001"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       transform="rotate(90)"
+       y="-130.35767"
+       x="65.326035"
+       height="8.1456432"
+       width="7.3861179"
+       id="rect3528"
+       style="fill:#028ee0;fill-opacity:0.78299776;stroke:#000000;stroke-width:0.05899548;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="176.74001"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       y="78.37352"
+       x="138.53696"
+       height="6.5481048"
+       width="7.3921967"
+       id="rect3530"
+       style="fill:#028ee0;fill-opacity:0.78299776;stroke:#000000;stroke-width:0.05291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-filename="./text6923.png"
+       y="87.810356"
+       x="22.852057"
+       height="2.5665138"
+       width="8.6006918"
+       id="rect3532"
+       style="display:inline;fill:#028ee0;fill-opacity:0.78523494;stroke:none;stroke-width:0.03573439;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="299"
+       inkscape:export-xdpi="299"
+       inkscape:export-filename="./text6923.png"
+       inkscape:connector-curvature="0"
+       id="path3534"
+       d="M 32.245882,97.285044 C 31.479305,96.851072 31.298917,96.703368 27.427121,91.716826"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#028ee0;stroke-width:0.21581037px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.78431373;marker-end:url(#marker3593)"
+       sodipodi:nodetypes="cc" />
+    <text
+       inkscape:export-ydpi="176.74001"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       id="text3538"
+       y="92.044609"
+       x="90.379036"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332px"
+         y="92.044609"
+         x="90.379036"
+         id="tspan3536"
+         sodipodi:role="line">B</tspan></text>
+    <rect
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-filename="./text6923.png"
+       transform="matrix(0,1,1,0,0,0)"
+       y="47.034801"
+       x="94.619789"
+       height="7.0790963"
+       width="2.5201583"
+       id="rect3540"
+       style="fill:#028ee0;fill-opacity:0.78299776;stroke:none;stroke-width:0.03212556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="176.74001"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       y="97.261169"
+       x="130.60684"
+       height="4.0307136"
+       width="7.3921967"
+       id="rect3542"
+       style="fill:#028ee0;fill-opacity:0.78523494;stroke:#000000;stroke-width:0.04151697;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="299"
+       inkscape:export-xdpi="299"
+       inkscape:export-filename="./text6923.png"
+       inkscape:connector-curvature="0"
+       id="path3544"
+       d="M 50.873317,86.559491 C 52.659206,89.048761 50.3551,94.1435 50.3551,94.1435"
+       style="fill:none;fill-rule:evenodd;stroke:#028ee0;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.78431373;marker-end:url(#marker4101)"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:export-ydpi="176.74001"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:connector-curvature="0"
+       id="path3546"
+       d="m 143.791,58.194677 -10.55714,7.082642"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6574-9)" />
+    <path
+       inkscape:export-ydpi="176.74001"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       inkscape:connector-curvature="0"
+       id="path3548"
+       d="m 147.39914,82.1153 c 12.56167,5.211754 12.56167,5.211754 12.56167,5.211754"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart-7)" />
+    <path
+       inkscape:export-ydpi="299"
+       inkscape:export-xdpi="299"
+       inkscape:export-filename="./text6923.png"
+       inkscape:connector-curvature="0"
+       id="path3550"
+       d="m 61.776407,99.607546 c 0,0 -0.480736,2.339344 -7.09532,4.890684"
+       style="fill:none;fill-rule:evenodd;stroke:#028ee0;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.78431373;marker-end:url(#marker5719)"
+       sodipodi:nodetypes="cc" />
+    <text
+       inkscape:export-ydpi="176.74001"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       id="text3556"
+       y="58.862854"
+       x="144.05827"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332px"
+         y="58.862854"
+         x="144.05827"
+         id="tspan3552"
+         sodipodi:role="line">C</tspan><tspan
+         id="tspan3554"
+         style="stroke-width:0.26458332px"
+         y="63.272575"
+         x="144.05827"
+         sodipodi:role="line" /></text>
+    <text
+       inkscape:export-ydpi="176.74001"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       id="text3560"
+       y="88.52977"
+       x="160.22809"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332px"
+         y="88.52977"
+         x="160.22809"
+         id="tspan3558"
+         sodipodi:role="line">D</tspan></text>
+    <text
+       inkscape:export-ydpi="176.74001"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       id="text3564"
+       y="109.51041"
+       x="154.21452"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332px"
+         y="109.51041"
+         x="154.21452"
+         id="tspan3562"
+         sodipodi:role="line">E</tspan></text>
+    <text
+       inkscape:export-ydpi="176.74001"
+       inkscape:export-xdpi="176.74001"
+       inkscape:export-filename="/home/daniel/text6922.png"
+       id="text3568"
+       y="104.29866"
+       x="94.880676"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332px"
+         y="104.29866"
+         x="94.880676"
+         id="tspan3566"
+         sodipodi:role="line">A</tspan></text>
+    <rect
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-filename="./text6923.png"
+       transform="matrix(0,1,1,0,0,0)"
+       y="51.595955"
+       x="100.33942"
+       height="2.5469306"
+       width="7.2185011"
+       id="rect3572"
+       style="display:inline;fill:#028ee0;fill-opacity:0.78299776;stroke:none;stroke-width:0.03261219;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-filename="./text6923.png"
+       transform="matrix(0,1,1,0,0,0)"
+       y="47.085636"
+       x="97.585907"
+       height="7.0790963"
+       width="2.5201585"
+       id="rect3540-2"
+       style="display:inline;fill:#028ee0;fill-opacity:0.78299776;stroke:none;stroke-width:0.03212556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.61416125px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#028ee0;fill-opacity:0.78431373;stroke:none;stroke-width:0.19606209px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="33.218575"
+       y="97.914757"
+       id="text6875"
+       inkscape:export-filename="./text6923.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"><tspan
+         sodipodi:role="line"
+         id="tspan6873"
+         x="33.218575"
+         y="97.914757"
+         style="fill:#028ee0;fill-opacity:0.78431373;stroke-width:0.19606209px">220 Ohm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.9959594px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#028ee0;fill-opacity:0.78431373;stroke:none;stroke-width:0.14969695px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="44.592476"
+       y="83.585808"
+       id="text6879"
+       inkscape:export-filename="./text6923.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"><tspan
+         sodipodi:role="line"
+         id="tspan6877"
+         x="44.592476"
+         y="83.585808"
+         style="fill:#028ee0;fill-opacity:0.78431373;stroke-width:0.14969695px">2x</tspan><tspan
+         sodipodi:role="line"
+         x="44.592476"
+         y="86.080757"
+         style="fill:#028ee0;fill-opacity:0.78431373;stroke-width:0.14969695px"
+         id="tspan6881">1kOhm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.21370125px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#028ee0;fill-opacity:0.78431373;stroke:none;stroke-width:0.16602758px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.78431373"
+       x="61.86182"
+       y="98.58783"
+       id="text6885"
+       inkscape:export-filename="./text6923.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"><tspan
+         sodipodi:role="line"
+         id="tspan6883"
+         x="61.86182"
+         y="98.58783"
+         style="fill:#028ee0;fill-opacity:0.78431373;stroke:none;stroke-width:0.16602758px;stroke-opacity:0.78431373">5.6kOhm</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Platzierungen LED+Buzzer"
+     style="display:none">
+    <ellipse
+       style="opacity:1;fill:#028ee0;fill-opacity:0.78523494;stroke:none;stroke-width:2.77228093;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1479"
+       cx="31.355967"
+       cy="82.016975"
+       rx="4.7119484"
+       ry="4.7114687"
+       inkscape:export-filename="./ledbuzzer.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+    <ellipse
+       style="opacity:1;fill:#028ee0;fill-opacity:0.78523494;stroke:none;stroke-width:1.13899124;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1479-6"
+       cx="33.521549"
+       cy="89.278458"
+       rx="1.9359034"
+       ry="1.9357064"
+       inkscape:export-filename="./ledbuzzer.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Platzierungen Netzteilbuchse"
+     style="display:none">
+    <rect
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-filename="./netzteilbuchse.png"
+       transform="matrix(0,1,1,0,0,0)"
+       y="45.02607"
+       x="106.86649"
+       height="7.1922655"
+       width="11.294361"
+       id="rect3572-7"
+       style="display:inline;fill:#028ee0;fill-opacity:0.78299776;stroke:none;stroke-width:0.06855065;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Platzierungen LM Spannungswandler"
+     style="display:none">
+    <rect
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-filename="./spannungswandler.png"
+       transform="matrix(0,1,1,0,0,0)"
+       y="55.630127"
+       x="81.39756"
+       height="13.406282"
+       width="28.498474"
+       id="rect3572-7-5"
+       style="display:inline;fill:#028ee0;fill-opacity:0.78299776;stroke:none;stroke-width:0.1486664;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Platzierungen Kondensatoren"
+     style="display:none">
+    <ellipse
+       style="display:inline;opacity:1;fill:#028ee0;fill-opacity:0.78523494;stroke:none;stroke-width:1.88766873;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1479-3"
+       cx="72.329659"
+       cy="87.093193"
+       rx="3.2084043"
+       ry="3.2080777"
+       inkscape:export-filename="./kondensatoren.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#028ee0;fill-opacity:0.78523494;stroke:none;stroke-width:1.0817709;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1479-3-5"
+       cx="75.537048"
+       cy="90.901924"
+       rx="1.838648"
+       ry="1.8384608"
+       inkscape:export-filename="./kondensatoren.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+    <ellipse
+       style="display:inline;opacity:1;fill:#028ee0;fill-opacity:0.78523494;stroke:none;stroke-width:0.98348069;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1479-3-5-6"
+       cx="77.341103"
+       cy="94.042198"
+       rx="1.6715875"
+       ry="1.6714175"
+       inkscape:export-filename="./kondensatoren.png"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-ydpi="299.42999" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Platzierungen RXB6 Funk"
+     style="display:none">
+    <rect
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-filename="./rxb6.png"
+       transform="matrix(0,1,1,0,0,0)"
+       y="33.796593"
+       x="71.591888"
+       height="32.588573"
+       width="4.2135038"
+       id="rect3572-7-5-2"
+       style="display:inline;fill:#028ee0;fill-opacity:0.78299776;stroke:none;stroke-width:0.08912554;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Platzierungen Mikroschalter">
+    <rect
+       inkscape:export-ydpi="299.42999"
+       inkscape:export-xdpi="299.42999"
+       inkscape:export-filename="./schalter.png"
+       transform="matrix(0,1,1,0,0,0)"
+       y="27.928928"
+       x="71.225838"
+       height="4.9963117"
+       width="4.2135038"
+       id="rect3572-7-5-2-9"
+       style="display:inline;fill:#028ee0;fill-opacity:0.78299776;stroke:none;stroke-width:0.0348975;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="146.59734"
+     y="56.991962"
+     id="text6900"><tspan
+       sodipodi:role="line"
+       id="tspan6898"
+       x="146.59734"
+       y="61.597439"
+       style="stroke-width:0.26458332px" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888889px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     x="143.791"
+     y="58.194679"
+     id="text6904"><tspan
+       sodipodi:role="line"
+       id="tspan6902"
+       x="143.791"
+       y="61.484306"
+       style="stroke-width:0.26458332px;font-size:4.93888889px;" /></text>
+</svg>
