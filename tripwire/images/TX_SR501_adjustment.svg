@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg7089"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="TX_SR501_adjustment.svg">
+  <defs
+     id="defs7083">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path6173"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#49dc00;stroke-opacity:1;fill:#49dc00;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="75.083488"
+     inkscape:cy="771.41414"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="1004"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7086">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.82073748;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8907"
+       width="98.777779"
+       height="121.05316"
+       x="33.513885"
+       y="19.464691"
+       inkscape:export-xdpi="166.28999"
+       inkscape:export-ydpi="166.28999" />
+    <image
+       sodipodi:absref="/home/daniel/media/Workbook/DIY_Home_Security_(Arduino_Smart_Home)/Tripwire-Docs/images/TX_SR501.jpg"
+       xlink:href="TX_SR501.jpg"
+       inkscape:export-ydpi="166.28999"
+       inkscape:export-xdpi="166.28999"
+       width="99.281746"
+       height="67.511581"
+       preserveAspectRatio="none"
+       id="image8273"
+       x="33.513885"
+       y="19.464691" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.94736844;stroke:#151515;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8876"
+       width="4.8108511"
+       height="29.934185"
+       x="63.877415"
+       y="78.6408"
+       inkscape:export-xdpi="166.28999"
+       inkscape:export-ydpi="166.28999" />
+    <rect
+       style="fill:#f7fcff;fill-opacity:1;stroke:#010101;stroke-width:0.86847943;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8878"
+       width="4.6751027"
+       height="42.710262"
+       x="83.322334"
+       y="78.30777"
+       inkscape:export-xdpi="166.28999"
+       inkscape:export-ydpi="166.28999" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="60.135643"
+       y="116.59306"
+       id="text8882"
+       inkscape:export-xdpi="166.28999"
+       inkscape:export-ydpi="166.28999"><tspan
+         sodipodi:role="line"
+         id="tspan8880"
+         x="60.135643"
+         y="116.59306"
+         style="font-size:5.64444447px;stroke-width:0.26458332px">TIME</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="70.275673"
+       y="128.09027"
+       id="text8886"
+       inkscape:export-xdpi="166.28999"
+       inkscape:export-ydpi="166.28999"><tspan
+         sodipodi:role="line"
+         id="tspan8884"
+         x="70.275673"
+         y="128.09027"
+         style="font-size:5.64444447px;stroke-width:0.26458332px">SENSITIVITY</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.82073748;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 66.393549,70.355441 58.108193,83.184377 H 74.144364 Z"
+       id="path8888"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="166.28999"
+       inkscape:export-ydpi="166.28999" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.82073748;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 85.891958,70.312918 -8.285356,12.828936 h 16.03617 z"
+       id="path8888-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="166.28999"
+       inkscape:export-ydpi="166.28999" />
+  </g>
+</svg>

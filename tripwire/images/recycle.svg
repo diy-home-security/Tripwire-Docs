@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="recycle.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="279.39806"
+     inkscape:cy="707.75923"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="1004"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     sodipodi:insensitive="true"
+     style="display:none;opacity:0.10400002">
+    <image
+       sodipodi:absref="/home/daniel/media/Workbook/DIY_Home_Security_(Arduino_Smart_Home)/Tripwire-Docs/images/wheeled_bin.gif"
+       xlink:href="wheeled_bin.gif"
+       width="271.99167"
+       height="273.84375"
+       preserveAspectRatio="none"
+       id="image877"
+       x="-21.09107"
+       y="-0.939726" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Ebene 2">
+    <circle
+       style="opacity:1;fill:#000000;fill-opacity:0.99624062;stroke:none;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.78431373"
+       id="path881"
+       cx="161.39583"
+       cy="233.87798"
+       r="22.300594"
+       inkscape:export-filename="./recycle.png"
+       inkscape:export-xdpi="13.76"
+       inkscape:export-ydpi="13.76" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.26499987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 52.160714,51.315476 71.059523,249.375 130.77976,248.61905 c -4.53571,-43.08929 31.75,-45.35715 31.75,-45.35715 l 14.3631,-150.434519 z"
+       id="path883"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="./recycle.png"
+       inkscape:export-xdpi="13.76"
+       inkscape:export-ydpi="13.76" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8.46500015;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 114.74805,29.916016 c -27.566804,-0.159262 -43.526275,2.369887 -53.138675,5.789062 -7.68992,2.735341 -11.630754,6.306511 -13.197266,10.039063 -1.566511,3.732551 -1.469982,4.677218 -1.336348,3.140417 l 8.892992,0.582239 c 0,0 -0.09895,0.37952 0.248047,-0.447266 0.346993,-0.826786 1.838822,-3.066999 8.228515,-5.339843 6.389693,-2.272844 17.363996,-4.312789 35.355287,-4.984277 8.995648,-0.335744 19.745538,-0.329374 32.553718,0.161056 6.4041,0.245214 13.32276,0.611443 20.79401,1.11643 7.47125,0.504987 4.72275,0.0148 13.33716,0.815049 l 2.83501,-5.048101 3.90967,-2.512974 c -26.034,-2.418459 -41.94204,-3.215299 -58.48212,-3.310855 z"
+       id="path885"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssscccsssscccs"
+       inkscape:export-filename="./recycle.png"
+       inkscape:export-xdpi="13.76"
+       inkscape:export-ydpi="13.76" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.99624059;stroke:none;stroke-width:8.46500015;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.78431373"
+       id="rect887"
+       width="210.91072"
+       height="37.797619"
+       x="0.75595242"
+       y="279.6131"
+       inkscape:export-filename="./recycle.png"
+       inkscape:export-xdpi="13.76"
+       inkscape:export-ydpi="13.76" />
+    <circle
+       style="opacity:1;fill:none;fill-opacity:0.99624059;stroke:#000000;stroke-width:4.26499987;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path889"
+       cx="176.42709"
+       cy="42.175262"
+       r="10.205357"
+       inkscape:export-filename="./recycle.png"
+       inkscape:export-xdpi="13.76"
+       inkscape:export-ydpi="13.76" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 62.933034,38.08631 2.456847,-10.016369 19.84375,-3.590775 6.047618,8.504464"
+       id="path893"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="./recycle.png"
+       inkscape:export-xdpi="13.76"
+       inkscape:export-ydpi="13.76" />
+    <circle
+       style="opacity:1;fill:none;fill-opacity:0.99624059;stroke:#f4f4f4;stroke-width:2.86500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path910"
+       cx="161.39583"
+       cy="233.87798"
+       r="10.394345"
+       inkscape:export-filename="./recycle.png"
+       inkscape:export-xdpi="13.76"
+       inkscape:export-ydpi="13.76" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.86500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 176.2423,63.393773 9.02501,4.991293 -1.72475,20.092123 -9.79025,3.612554"
+       id="path893-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="./recycle.png"
+       inkscape:export-xdpi="13.76"
+       inkscape:export-ydpi="13.76" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.765;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M -21.09107,-0.93972598 250.9006,272.90403 v 0"
+       id="path927"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="./recycle.png"
+       inkscape:export-xdpi="13.76"
+       inkscape:export-ydpi="13.76" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.76499987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 250.9006,-0.939726 -21.091081,272.90403 v 0"
+       id="path927-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="./recycle.png"
+       inkscape:export-xdpi="13.76"
+       inkscape:export-ydpi="13.76" />
+  </g>
+</svg>

@@ -1,0 +1,1923 @@
+
+
+
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="In Zwischenablage kopieren">
+      
+        <meta name="lang:clipboard.copied" content="In Zwischenablage kopiert">
+      
+        <meta name="lang:search.language" content="de">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Keine Suchergebnisse">
+      
+        <meta name="lang:search.result.one" content="1 Suchergebnis">
+      
+        <meta name="lang:search.result.other" content="# Suchergebnisse">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../res/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Tipwire Handbuch - DIY Home Security</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700|Ubuntu+Mono&display=fallback">
+        <style>body,input{font-family:"Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../res/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#tripwire" tabindex="1" class="md-skip">
+        Zum Inhalt
+      </a>
+    
+    
+      <!--
+  Copyright (c) 2016-2019 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Application header -->
+<header class="md-header" data-md-component="header">
+
+  <!-- Top-level navigation -->
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+
+      <!-- Link to home -->
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../index.html"
+            title="DIY Home Security"
+            class="md-header-nav__button md-logo">
+          
+            <img src="../res/logo.svg" width="24" height="24" />
+          
+        </a>
+      </div>
+
+      <!-- Button to toggle drawer -->
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button"
+            for="__drawer"></label>
+      </div>
+
+      <!-- Header title -->
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title"
+            data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              DIY Home Security
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Tipwire Handbuch
+              
+            </span>
+          
+        </div>
+      </div>
+
+      <!-- Button to open search dialogue -->
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button"
+              for="__search"></label>
+
+          <!-- Search interface -->
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Suchbegriff eingeben
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+		
+
+            <!-- Main navigation -->
+            
+              <div class="md-sidebar md-sidebar--primary"
+                  data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <!--
+  Copyright (c) 2016-2019 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Main navigation -->
+<nav class="md-nav md-nav--primary" data-md-level="0">
+
+  <!-- Site title -->
+  
+
+  <!-- Repository containing source -->
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/diy-home-security/Tripwire-Docs/" title="Quellcode" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    diy-home-security/Tripwire-Docs
+  </div>
+</a>
+    </div>
+  
+
+  <!-- Render item list -->
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../index.html" title="Start" class="md-nav__link">
+      Start
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Tipwire Handbuch
+      </label>
+    
+    <a href="handbuch.html" title="Tipwire Handbuch" class="md-nav__link md-nav__link--active">
+      Tipwire Handbuch
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Inhaltsverzeichnis</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hinweise" title="Hinweise" class="md-nav__link">
+    Hinweise
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bevor-es-losgehen-kann" title="Bevor es losgehen kann" class="md-nav__link">
+    Bevor es losgehen kann
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#was-haben-wir-hier" title="Was haben wir hier?" class="md-nav__link">
+    Was haben wir hier?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arduino-pro-mini-33-volt" title="Arduino Pro Mini 3.3 Volt" class="md-nav__link">
+    Arduino Pro Mini 3.3 Volt
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#esp8266-mikrokontroller" title="ESP8266 Mikrokontroller" class="md-nav__link">
+    ESP8266 Mikrokontroller
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sim800l-gsm-modem" title="SIM800L GSM-Modem" class="md-nav__link">
+    SIM800L GSM-Modem
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#es-geht-los-die-aufbau-anleitung" title="Es geht los! - Die Aufbau-Anleitung" class="md-nav__link">
+    Es geht los! - Die Aufbau-Anleitung
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufbau-eines-sensorknotens-tx-node" title="Aufbau eines Sensorknotens TX Node" class="md-nav__link">
+    Aufbau eines Sensorknotens TX Node
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#buchsenleisten" title="Buchsenleisten" class="md-nav__link">
+    Buchsenleisten
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#buzzer-und-kondensator" title="Buzzer und Kondensator" class="md-nav__link">
+    Buzzer und Kondensator
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#der-spannungswandler" title="Der Spannungswandler" class="md-nav__link">
+    Der Spannungswandler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anschluss-des-batteriefachs" title="Anschluss des Batteriefachs" class="md-nav__link">
+    Anschluss des Batteriefachs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anloten-der-stiftleisten-an-den-mikrokontroller" title="Anlöten der Stiftleisten an den Mikrokontroller" class="md-nav__link">
+    Anlöten der Stiftleisten an den Mikrokontroller
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entfernen-der-power-led-des-pro-mini-moduls" title="Entfernen der Power-LED des Pro Mini Moduls" class="md-nav__link">
+    Entfernen der Power-LED des Pro Mini Moduls
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufspielen-der-firmware" title="Aufspielen der Firmware" class="md-nav__link">
+    Aufspielen der Firmware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#einstellen-des-tx-node-sr501-bewegungsmelders" title="Einstellen des TX Node SR501 Bewegungsmelders" class="md-nav__link">
+    Einstellen des TX Node SR501 Bewegungsmelders
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debug-interface-des-funk-sensors-tx-node" title="Debug-Interface des Funk-Sensors TX Node" class="md-nav__link">
+    Debug-Interface des Funk-Sensors TX Node
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufbau-der-basisstation-rx-base" title="Aufbau der Basisstation RX Base" class="md-nav__link">
+    Aufbau der Basisstation RX Base
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-der-buchsenleisten" title="Auflöten der Buchsenleisten" class="md-nav__link">
+    Auflöten der Buchsenleisten
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-der-widerstande" title="Auflöten der Widerstände" class="md-nav__link">
+    Auflöten der Widerstände
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-der-led-und-des-buzzers" title="Auflöten der LED und des Buzzers" class="md-nav__link">
+    Auflöten der LED und des Buzzers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-des-mikroschalters" title="Auflöten des Mikroschalters" class="md-nav__link">
+    Auflöten des Mikroschalters
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-der-netzteil-buchse" title="Auflöten der Netzteil-Buchse" class="md-nav__link">
+    Auflöten der Netzteil-Buchse
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-des-spannungswandlers" title="Auflöten des Spannungswandlers" class="md-nav__link">
+    Auflöten des Spannungswandlers
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#einstellen-des-spannungswandler-moduls-lm2596s" title="Einstellen des Spannungswandler-Moduls LM2596S" class="md-nav__link">
+    Einstellen des Spannungswandler-Moduls LM2596S
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-der-kondensatoren" title="Auflöten der Kondensatoren" class="md-nav__link">
+    Auflöten der Kondensatoren
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anloten-des-rxb6-funkempfangers" title="Anlöten des RXB6 Funkempfängers" class="md-nav__link">
+    Anlöten des RXB6 Funkempfängers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anloten-der-stiftleisten-an-das-wemos-d1-mini-kompatible-modul" title="Anlöten der Stiftleisten an das Wemos D1 Mini kompatible Modul" class="md-nav__link">
+    Anlöten der Stiftleisten an das Wemos D1 Mini kompatible Modul
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anloten-der-stiftleisten-an-das-sim800l-gsm-modem" title="Anlöten der Stiftleisten an das SIM800L GSM-Modem" class="md-nav__link">
+    Anlöten der Stiftleisten an das SIM800L GSM-Modem
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anstecken-der-antenne-an-das-sim800l-gsm-modem" title="Anstecken der Antenne an das SIM800L GSM-Modem" class="md-nav__link">
+    Anstecken der Antenne an das SIM800L GSM-Modem
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#einsetzen-der-sim-karte-nicht-im-lieferumfang-enthalten" title="Einsetzen der SIM-Karte (Nicht im Lieferumfang enthalten)" class="md-nav__link">
+    Einsetzen der SIM-Karte (Nicht im Lieferumfang enthalten)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vorbereiten-der-arduino-ide" title="Vorbereiten der Arduino IDE" class="md-nav__link">
+    Vorbereiten der Arduino IDE
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufspielen-der-rx-base-firmware" title="Aufspielen der RX Base Firmware" class="md-nav__link">
+    Aufspielen der RX Base Firmware
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#einstecken-des-mikrocontrollers-und-gsm-modems-auf-die-hauptplatine" title="Einstecken des Mikrocontrollers und GSM-Modems auf die Hauptplatine" class="md-nav__link">
+    Einstecken des Mikrocontrollers und GSM-Modems auf die Hauptplatine
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checkliste-nach-dem-bau" title="Checkliste nach dem Bau" class="md-nav__link">
+    Checkliste nach dem Bau
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debug-interface-der-basisstation-rx-base" title="Debug-Interface der Basisstation RX Base" class="md-nav__link">
+    Debug-Interface der Basisstation RX Base
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scharf-schalten-der-betrieb-ihres-tripwire-systems" title="Scharf schalten! - Der Betrieb Ihres Tripwire Systems" class="md-nav__link">
+    Scharf schalten! - Der Betrieb Ihres Tripwire Systems
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufstellen-der-tx-node-bewegungsmelder" title="Aufstellen der TX Node Bewegungsmelder" class="md-nav__link">
+    Aufstellen der TX Node Bewegungsmelder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufstellen-und-inbetriebnahme-der-rx-base-basisstation" title="Aufstellen und Inbetriebnahme der RX Base Basisstation" class="md-nav__link">
+    Aufstellen und Inbetriebnahme der RX Base Basisstation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steuerung-der-basisstation-uber-das-web-interface" title="Steuerung der Basisstation über das Web-Interface" class="md-nav__link">
+    Steuerung der Basisstation über das Web-Interface
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fernbedienung-der-basisstation-per-mobiltelefon" title="Fernbedienung der Basisstation per Mobiltelefon" class="md-nav__link">
+    Fernbedienung der Basisstation per Mobiltelefon
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steuerung-der-basisstation-uber-die-serielle-schnittstelle-debug-interface" title="Steuerung der Basisstation über die serielle Schnittstelle (Debug-Interface)" class="md-nav__link">
+    Steuerung der Basisstation über die serielle Schnittstelle (Debug-Interface)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fehlersuche" title="Fehlersuche" class="md-nav__link">
+    Fehlersuche
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rx-base" title="RX Base" class="md-nav__link">
+    RX Base
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tx-node" title="TX Node" class="md-nav__link">
+    TX Node
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technische-daten" title="Technische Daten" class="md-nav__link">
+    Technische Daten
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rx-base_1" title="RX Base" class="md-nav__link">
+    RX Base
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tx-node_1" title="TX Node" class="md-nav__link">
+    TX Node
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rechtliche-hinweise" title="Rechtliche Hinweise" class="md-nav__link">
+    Rechtliche Hinweise
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#veranderungen-anpassungen-und-kollaboration" title="Veränderungen, Anpassungen und Kollaboration" class="md-nav__link">
+    Veränderungen, Anpassungen und Kollaboration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#haftungsausschluss" title="Haftungsausschluss" class="md-nav__link">
+    Haftungsausschluss
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alterseinschrankung" title="Alterseinschränkung" class="md-nav__link">
+    Alterseinschränkung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recycling" title="Recycling" class="md-nav__link">
+    Recycling
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lizenzen" title="Lizenzen" class="md-nav__link">
+    Lizenzen
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lizenz-der-hardware" title="Lizenz der Hardware" class="md-nav__link">
+    Lizenz der Hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lizenz-der-software" title="Lizenz der Software" class="md-nav__link">
+    Lizenz der Software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lizenz-der-dokumentation" title="Lizenz der Dokumentation" class="md-nav__link">
+    Lizenz der Dokumentation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copyright" title="Copyright" class="md-nav__link">
+    Copyright
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+
+            <!-- Table of contents -->
+            
+              <div class="md-sidebar md-sidebar--secondary"
+                  data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Inhaltsverzeichnis</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hinweise" title="Hinweise" class="md-nav__link">
+    Hinweise
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bevor-es-losgehen-kann" title="Bevor es losgehen kann" class="md-nav__link">
+    Bevor es losgehen kann
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#was-haben-wir-hier" title="Was haben wir hier?" class="md-nav__link">
+    Was haben wir hier?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arduino-pro-mini-33-volt" title="Arduino Pro Mini 3.3 Volt" class="md-nav__link">
+    Arduino Pro Mini 3.3 Volt
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#esp8266-mikrokontroller" title="ESP8266 Mikrokontroller" class="md-nav__link">
+    ESP8266 Mikrokontroller
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sim800l-gsm-modem" title="SIM800L GSM-Modem" class="md-nav__link">
+    SIM800L GSM-Modem
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#es-geht-los-die-aufbau-anleitung" title="Es geht los! - Die Aufbau-Anleitung" class="md-nav__link">
+    Es geht los! - Die Aufbau-Anleitung
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufbau-eines-sensorknotens-tx-node" title="Aufbau eines Sensorknotens TX Node" class="md-nav__link">
+    Aufbau eines Sensorknotens TX Node
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#buchsenleisten" title="Buchsenleisten" class="md-nav__link">
+    Buchsenleisten
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#buzzer-und-kondensator" title="Buzzer und Kondensator" class="md-nav__link">
+    Buzzer und Kondensator
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#der-spannungswandler" title="Der Spannungswandler" class="md-nav__link">
+    Der Spannungswandler
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anschluss-des-batteriefachs" title="Anschluss des Batteriefachs" class="md-nav__link">
+    Anschluss des Batteriefachs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anloten-der-stiftleisten-an-den-mikrokontroller" title="Anlöten der Stiftleisten an den Mikrokontroller" class="md-nav__link">
+    Anlöten der Stiftleisten an den Mikrokontroller
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entfernen-der-power-led-des-pro-mini-moduls" title="Entfernen der Power-LED des Pro Mini Moduls" class="md-nav__link">
+    Entfernen der Power-LED des Pro Mini Moduls
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufspielen-der-firmware" title="Aufspielen der Firmware" class="md-nav__link">
+    Aufspielen der Firmware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#einstellen-des-tx-node-sr501-bewegungsmelders" title="Einstellen des TX Node SR501 Bewegungsmelders" class="md-nav__link">
+    Einstellen des TX Node SR501 Bewegungsmelders
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debug-interface-des-funk-sensors-tx-node" title="Debug-Interface des Funk-Sensors TX Node" class="md-nav__link">
+    Debug-Interface des Funk-Sensors TX Node
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufbau-der-basisstation-rx-base" title="Aufbau der Basisstation RX Base" class="md-nav__link">
+    Aufbau der Basisstation RX Base
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-der-buchsenleisten" title="Auflöten der Buchsenleisten" class="md-nav__link">
+    Auflöten der Buchsenleisten
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-der-widerstande" title="Auflöten der Widerstände" class="md-nav__link">
+    Auflöten der Widerstände
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-der-led-und-des-buzzers" title="Auflöten der LED und des Buzzers" class="md-nav__link">
+    Auflöten der LED und des Buzzers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-des-mikroschalters" title="Auflöten des Mikroschalters" class="md-nav__link">
+    Auflöten des Mikroschalters
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-der-netzteil-buchse" title="Auflöten der Netzteil-Buchse" class="md-nav__link">
+    Auflöten der Netzteil-Buchse
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-des-spannungswandlers" title="Auflöten des Spannungswandlers" class="md-nav__link">
+    Auflöten des Spannungswandlers
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#einstellen-des-spannungswandler-moduls-lm2596s" title="Einstellen des Spannungswandler-Moduls LM2596S" class="md-nav__link">
+    Einstellen des Spannungswandler-Moduls LM2596S
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufloten-der-kondensatoren" title="Auflöten der Kondensatoren" class="md-nav__link">
+    Auflöten der Kondensatoren
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anloten-des-rxb6-funkempfangers" title="Anlöten des RXB6 Funkempfängers" class="md-nav__link">
+    Anlöten des RXB6 Funkempfängers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anloten-der-stiftleisten-an-das-wemos-d1-mini-kompatible-modul" title="Anlöten der Stiftleisten an das Wemos D1 Mini kompatible Modul" class="md-nav__link">
+    Anlöten der Stiftleisten an das Wemos D1 Mini kompatible Modul
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anloten-der-stiftleisten-an-das-sim800l-gsm-modem" title="Anlöten der Stiftleisten an das SIM800L GSM-Modem" class="md-nav__link">
+    Anlöten der Stiftleisten an das SIM800L GSM-Modem
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anstecken-der-antenne-an-das-sim800l-gsm-modem" title="Anstecken der Antenne an das SIM800L GSM-Modem" class="md-nav__link">
+    Anstecken der Antenne an das SIM800L GSM-Modem
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#einsetzen-der-sim-karte-nicht-im-lieferumfang-enthalten" title="Einsetzen der SIM-Karte (Nicht im Lieferumfang enthalten)" class="md-nav__link">
+    Einsetzen der SIM-Karte (Nicht im Lieferumfang enthalten)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vorbereiten-der-arduino-ide" title="Vorbereiten der Arduino IDE" class="md-nav__link">
+    Vorbereiten der Arduino IDE
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aufspielen-der-rx-base-firmware" title="Aufspielen der RX Base Firmware" class="md-nav__link">
+    Aufspielen der RX Base Firmware
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#einstecken-des-mikrocontrollers-und-gsm-modems-auf-die-hauptplatine" title="Einstecken des Mikrocontrollers und GSM-Modems auf die Hauptplatine" class="md-nav__link">
+    Einstecken des Mikrocontrollers und GSM-Modems auf die Hauptplatine
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checkliste-nach-dem-bau" title="Checkliste nach dem Bau" class="md-nav__link">
+    Checkliste nach dem Bau
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debug-interface-der-basisstation-rx-base" title="Debug-Interface der Basisstation RX Base" class="md-nav__link">
+    Debug-Interface der Basisstation RX Base
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scharf-schalten-der-betrieb-ihres-tripwire-systems" title="Scharf schalten! - Der Betrieb Ihres Tripwire Systems" class="md-nav__link">
+    Scharf schalten! - Der Betrieb Ihres Tripwire Systems
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufstellen-der-tx-node-bewegungsmelder" title="Aufstellen der TX Node Bewegungsmelder" class="md-nav__link">
+    Aufstellen der TX Node Bewegungsmelder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufstellen-und-inbetriebnahme-der-rx-base-basisstation" title="Aufstellen und Inbetriebnahme der RX Base Basisstation" class="md-nav__link">
+    Aufstellen und Inbetriebnahme der RX Base Basisstation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steuerung-der-basisstation-uber-das-web-interface" title="Steuerung der Basisstation über das Web-Interface" class="md-nav__link">
+    Steuerung der Basisstation über das Web-Interface
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fernbedienung-der-basisstation-per-mobiltelefon" title="Fernbedienung der Basisstation per Mobiltelefon" class="md-nav__link">
+    Fernbedienung der Basisstation per Mobiltelefon
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steuerung-der-basisstation-uber-die-serielle-schnittstelle-debug-interface" title="Steuerung der Basisstation über die serielle Schnittstelle (Debug-Interface)" class="md-nav__link">
+    Steuerung der Basisstation über die serielle Schnittstelle (Debug-Interface)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fehlersuche" title="Fehlersuche" class="md-nav__link">
+    Fehlersuche
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rx-base" title="RX Base" class="md-nav__link">
+    RX Base
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tx-node" title="TX Node" class="md-nav__link">
+    TX Node
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technische-daten" title="Technische Daten" class="md-nav__link">
+    Technische Daten
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rx-base_1" title="RX Base" class="md-nav__link">
+    RX Base
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tx-node_1" title="TX Node" class="md-nav__link">
+    TX Node
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rechtliche-hinweise" title="Rechtliche Hinweise" class="md-nav__link">
+    Rechtliche Hinweise
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#veranderungen-anpassungen-und-kollaboration" title="Veränderungen, Anpassungen und Kollaboration" class="md-nav__link">
+    Veränderungen, Anpassungen und Kollaboration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#haftungsausschluss" title="Haftungsausschluss" class="md-nav__link">
+    Haftungsausschluss
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alterseinschrankung" title="Alterseinschränkung" class="md-nav__link">
+    Alterseinschränkung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recycling" title="Recycling" class="md-nav__link">
+    Recycling
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lizenzen" title="Lizenzen" class="md-nav__link">
+    Lizenzen
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lizenz-der-hardware" title="Lizenz der Hardware" class="md-nav__link">
+    Lizenz der Hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lizenz-der-software" title="Lizenz der Software" class="md-nav__link">
+    Lizenz der Software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lizenz-der-dokumentation" title="Lizenz der Dokumentation" class="md-nav__link">
+    Lizenz der Dokumentation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copyright" title="Copyright" class="md-nav__link">
+    Copyright
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/diy-home-security/Tripwire-Docs/edit/master/docs/tripwire/handbuch.md" title="Seite editieren" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="tripwire">Tripwire<a class="headerlink" href="#tripwire" title="Permanent link">#</a></h1>
+<p><strong>Handbuch zum Aufbau und Betrieb der <em>Tripwire</em> Basisstation <em>RX Base</em> und der drei Sensorknoten <em>TX Node</em></strong></p>
+<p>Herzlichen Glückwunsch zu Ihrem neuen <em>Tripwire</em><sup>TM</sup> Baukasten! 
+Vielen Dank, dass Sie sich für einen Hobby-Elektronikbaukasten des <em>DIY-Home-Security</em> Projektes entschieden haben. Nehmen Sie sich einige Minuten Zeit und studieren Sie diese Anleitung sorgfältig, um Problemen aus dem Weg zu gehen und möglichst schnell Freude mit Ihrer Anschaffung zu haben.</p>
+<p>Der Baukasten enthält alle Komponenten zum Aufbau des Tripwire DIY-Home-Security Systems. Das Kürzel <em>DIY</em> steht für englisch "Do It Yourself", also ein Selbstbauprodukt, das als Baukasten angeboten wird. Einige Werkzeuge und Verbrauchsmaterialien müssen daher von Ihnen gestellt werden. Weiter benötigen Sie auch eine GSM SIM-Karte, wenn Sie die Mobilfunkanbindung der Anlage nutzen wollen.</p>
+<p>Der Aufbau kann je nach Ihren Fähigkeiten und Ihrem Geschick innerhalb weniger Stunden abgeschlossen werden, in der Regel 3-4 Stunden. Der Schwierigkeitsgrad kann mit <em>"mittel"</em> oder <em>"für fortgeschrittene Bastler"</em> beschrieben werden.</p>
+<h2 id="hinweise">Hinweise<a class="headerlink" href="#hinweise" title="Permanent link">#</a></h2>
+<p>Dieser Baukasten ist für Personen unter 14 Jahren <em>nicht</em> geeignet!</p>
+<p>Bitte lesen Sie auch die Hinweise am Ende dieser Anleitung.</p>
+<div class="admonition warning">
+<p class="admonition-title"><strong><em>WARNHINWEIS ZUR ELEKTRONIK</em></strong></p>
+<p><em>Die Auswahl der Komponenten in diesem Baukasten, das Design der Schaltungen sowie die Dokumentation und Hinweise zum Einsatz des Produktes wurden mit großer Sorgfalt erstellt und mit der Absicht, dem Kunden ein positives Erlebnis zu bescheren. Dennoch kann nicht ausgeschlossen werden, dass resultierend aus Fehlern im Produkt, Fehlern beim Zusammensetzen der Komponenten oder aus unvorhergesehenen Umständen während des Einsatzes des Produktes ein schadhafter Vorgang resultiert. Daher nehmen Sie bitte folgende Hinweise und Warnungen zur Kenntnis. Der Baukasten darf nur genutzt werden, wenn Sie die folgende Anmerkung verstehen und die rechtlichen Folgen akzeptieren:</em></p>
+<p><em>Dies ist ein Elektronikbaukasten der mit Sachverstand und geeignetem Werkzeug zu nutzen ist. Der Aufbau der Einzelteile, das Zusammensetzen und Löten der Komponenten sowie der Betrieb geschehen allein in der Verantwortlichkeit des Kunden. Der Anbieter des Baukastens sowie die Hersteller der Komponenten können nicht für Fehlfunktionen, Schäden an Sachen oder Personen oder anderen schadhaften Resultaten aus dem Einsatz oder der Benutzung dieser Zusammenstellung von Komponenten haftbar gemacht werden. Der Zusammenbau sowie der Einsatz des in diesem Baukasten befindlichen Produkt geschieht ausdrücklich auf eigene Gefahr.</em></p>
+<p><em>Die Niedervolt-Komponenten des Bausatzes sind für den Einsatz mit handelsüblichen Alkaline AA Batterien vorgesehen. Nutzen Sie keine Lithium-Ionen, Lithium-Polimer oder gar andere Batterien, die ähnlicher Größe sind aber andere Technologie nutzen. Wiederaufladbare Batterien können nur bedingt eingesetzt werden. Empfohlen ist allein der Betrieb mit Alkaline Batterien.</em></p>
+<p><em>Die Basisstation arbeitet mit einem Netzteil, das eine für die Elektronik geeignete niedrige Gleichspannung ausgibt. Obwohl diese Spannung nach der Wandlung wenig Gefahr birgt, ist der Eingangs-Stecker-Kontakt jedoch mit dem Hochvolt-Wechselstromnetz Ihres Haushaltes verbunden. Kontakt mit diesen hohen Strömen ist tödlich! Achten Sie daher bitte darauf, dass das Gehäuse und Kabel des Netzteiles unversehrt sind. Der Kontakt mit Wasser muss vermieden werden. Das Netzteil, wie alle Geräte des Baukastens, müssen trocken aufgestellt werden und nach Möglichkeit regelmäßig überprüft bzw. beobachtet werden. Das Netzteil darf nie mit feuchten oder nassen Händen angefasst werden. Sollte der Netzadapter Beschädigungen aufweisen, ist vor dem Herausziehen die zugehörige Netzsteckdose über den Sicherungs­kasten stromlos zu schalten.</em></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title"><strong><em>WARNHINWEIS ZUM SELBSTBAU</em></strong></p>
+<p><em>Viele Komponenten dieses Baukastens  müssen noch von Ihnen zusammen gebaut werden. Gehen Sie mit den erforderlichen Werkzeugen vorsichtig und umsichtig um. Tragen Sie angemessene Schutzkleidung, z.B. Handschuhe und eine Schutzbrille. Wenn Sie Lötzinn und einen Lötkolben verwenden, dann gehen Sie mit großer Vorsicht vor. Machen Sie sich vor dem Löten mit den handwerklichen Erfordernissen des Löten vertraut. Diese Anleitung kann und wird Ihnen nicht alle Fähigkeiten und Gefahren des Lötens vermitteln können. Ein Lötkolben entwickelt große Hitze - treffen Sie daher entsprechende Vorsichtsmaßnahmen und wenden Sie so Gefahren für Ihre Gesundheit und Ihre Umwelt ab. Sorgen Sie stets für ausreichende Belüftung, atmen Sie entstehenden Qualm nicht ein. Es besteht die Gefahr eines Feuers. Waschen Sie sich nach der Arbeit, gerade bei Einsatz bleihaltigen Lötzinns, immer die Hände.</em></p>
+<p><em>Wenn Sie sich beim Zusammenbau oder der Installation des Produktes nicht sicher sind bzw. Zweifel über die Funktionsweise bestehen, wenden Sie sich an eine Fachkraft oder Person, die Ihnen sachgemäße Hilfe leisten kann.</em></p>
+<p><em>Da dies ein Baukasten für geübtere Bastler ist, führt der Aufbau dieses Produktes vermutlich zu immer leicht unterschiedlichen Ergebnissen. Die vorliegende Anleitung weist sie auf wichtige Details hin und gibt einen Aufbau vor. Eigen­mächtige Veränderungen oder Umbauten, die nicht in diesem Handbuch beschrieben sind, gelten als nicht bestimmungsgemäß, sind nicht zulässig und führen zur Einstufung des Ergebnisses als beschädi­gtes Produkt. Darüber hinaus können Gefahren wie z. B. Kurz­schluss, Brand, elektrischer Schlag etc. nicht ausgeschlossen werden.</em></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title"><strong><em>HINWEIS ZUR ERWARTBAREN SICHERHEIT</em></strong></p>
+<p><em>Mit diesem Baukasten können Sie ein einfaches Alarmsystem aufbauen, dass Ihnen Nachricht über Bewegung im Sichtbereich der Bewegungssensoren sendet. Seitens des Anbieters kann und wird aber keine Garantie über die Ausfallsicherheit der Anlage, die Erkennungsgenauigkeit der Anlage oder die damit zu erzielende Sicherheit gegeben. Das Produkt versteht sich als Experimentier- und Amateursystem. Es kann keine Zusage über die uneingeschränkte Funktion des Systems gegeben werden. Zur Vermeidung und Verhinderung von Einbrüchen und Diebstählen sind zusätzliche Vorkehrungen zu treffen. Informationen hierzu sind bei allen Beratungsstellen der Polizei erhältlich.</em></p>
+<p><em>Da die Übermittlung der Meldungen von einzelnen Bewegungssensoren über das ISM Funkband erfolgen, sei angemerkt, dass diese Funkstrecken gestört werden können. Eine Funkübertragung kann durch defekte Bauteile von elektrischen oder elektronischen Pro­dukten (etwa Antennenverstärkern, Motoren, etc.) aber auch durch andere Sender im selben Band zeitweise oder dauerhaft gestört werden. Weiter kann die Übermittlung einer Meldung  auch bewusst und mutwillig von Seiten Dritter manipuliert, gestört oder unterbunden werden. Es besteht also keine vollständige Verlässlichkeit der Meldungen, und damit auch des gesamten Systems. Ähnliches gilt für das Absetzen von Kurznachrichten über die Basisstation über das Mobilfunknetz. Auch sind Fehlfunktionen in der eingesetzten Firmware oder Ausfälle der Hardwäre möglich. Verlassen Sie sich daher bitte nicht auf den vollkommen fehlerfreien Betrieb des Systems und verstehen und akzeptieren Sie vor dem Betrieb die Einschränkungen der Anlage.</em></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title"><strong><em>HINWEIS ZU DEN SENDEKOMPONENTEN</em></strong></p>
+<p><em>Einzelne Komponenten in diesem Baukasten sind mit der Fähigkeit ausgestattet, elektromagnetische modulierte Radiowellen zu generieren und auszustrahlen. Die Sendeleistung der Funkkomponenten ist gering, jedoch unterliegen Komponenten dieses Typs in Deutschland gesetzlichen Regelungen, die zum rechtmäßigen Betrieb der Komponenten eingehalten werden müssen. Die enthaltenen Sender operieren im sog. ISM-Band (Industrial, Scientific and Medical Band) von 433,05 MHz bis 434,79 MHz. Zwar sind die enthaltenen Komponenten nicht in der Lage, außerhalb dieses Bandes zu senden, dennoch sei darauf hingewiesen, dass die Sendekomponenten im <em>Tripwire</em><sup>TM</sup> Baukasten in Deutschland nach Regulierung der Bundesnetzagentur nur im 433Mhz ISM-Band zur Nachrichtenübermittlung zwischen den Komponenten betrieben werden darf.</em></p>
+<p><em>Übersicht über die <a href="https://www.bundesnetzagentur.de/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/Allgemeinzuteilungen/allgemeinzuteilungen-node.html">Zuteilung von Frequenzen an die Allgemeinheit (Allgemeinzuteilung) der Bundesnetzagentur</a></em></p>
+<p><em>Veröffentlichung der <a href="https://emf3.bundesnetzagentur.de/pdf/ISM-BNetzA.pdf">Bundesnetzagentur zu Funkanwendungen auf dem ISM-Band</a></em></p>
+<p><em>Veröffentlichung der <a href="https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/Allgemeinzuteilungen/2003_76_ISM_pdf.pdf?__blob=publicationFile&amp;v=5">Bundesnetzagentur zu Nutzungsbstimmungen auf dem ISM-Band</a></em></p>
+</div>
+<p>Sie können Probleme oder Fehler über den github Issue Tracker melden:</p>
+<ul>
+<li><a href="https://github.com/diy-home-security/Tripwire-TX-Node/issues">Issue: Probleme mit der TX Node Firmware</a></li>
+<li><a href="https://github.com/diy-home-security/Tripwire-RX-Base/issues">Issue: Probleme mit der RX Base Firmware</a></li>
+<li><a href="https://github.com/diy-home-security/Tripwire-Docs/issues">Issue: Probleme mit dieser Anleitung hier</a></li>
+</ul>
+<p>Und wir möchten Sie einladen, Verbesserungen oder Fehlerkorrekturen an der Software via github mit uns und der Tripwire-Community zu teilen.</p>
+<p><a href="https://github.com/diy-home-security/">https://github.com/diy-home-security/</a>.</p>
+<p>Sollten Sie Fragen haben, die sich nur per direktem Kontakt klären lassen, so wenden Sie sich über die dem Baukasten beiligenden Kontakdaten via E-Mail oder Telefon an den Support.</p>
+<h2 id="bevor-es-losgehen-kann">Bevor es losgehen kann<a class="headerlink" href="#bevor-es-losgehen-kann" title="Permanent link">#</a></h2>
+<p>Aus den Komponenten in diesem Set können Sie mit etwas Geschick und in wenigen Stunden eine sehr effektive Melde-oder Alarmanlage erstellen, die von Ihnen selbst aufgebaut, selbst programmiert und auch selbst erweitert werden kann. Zwar sind in diesem Baukasten alle elektronischen Teile enthalten, jedoch benötigen Sie noch zusätzlich ein paar Werkzeuge und Verbrauchsmaterialien um das System vollständig aufzubauen:</p>
+<p><em>Zum Aufbau der Elektronik benötigen Sie:</em></p>
+<ul>
+<li>einen Lötkolben mit feiner Spitze</li>
+<li>Lötzinn (vorzugsweise bleifrei)</li>
+<li>eine kleine Kneifzange (um Drähte abzulängen, Dinge zu halten, etc.)</li>
+<li>eine „helfende Hand“ (das ist ein kleiner Ständer, mit Halteklammern um die Lötarbeiten zu erleichtern)</li>
+<li>ein digitales Voltmeter (zur Spannungseinstellung und zur Bau-Kontrolle)</li>
+</ul>
+<p><em>Weiter benötigen Sie zum Übertragen und Aufspielen der Software (Firmware) auf die enthaltenen Mikrocontroller:</em></p>
+<ul>
+<li>einen Computer mit Internet-Anschluss (für Updates, den Zugang zu github, etc.)</li>
+<li>die kostenlose <em>Arduino IDE</em> Software</li>
+<li>einen "USB auf TTL"-Serial-Adapter (auch Programmer genannt)</li>
+</ul>
+<p><em>Für den Betrieb der Basisstation (RX Base) benötigen Sie:</em></p>
+<ul>
+<li>eine Handy SIM-Karte (Micro), freigeschaltet, mit Guthaben für die GSM-Kommunikation (den Versand von SMS)</li>
+</ul>
+<p><em>Für den Betrieb der einzelnen Bewegungssensoren (TX Nodes) benötigen Sie:</em></p>
+<ul>
+<li>jeweils 3 Stück <a href="https://de.wikipedia.org/wiki/Mignon_(Batterie)">AA-Batterien</a> (<a href="https://de.wikipedia.org/wiki/Alkali-Mangan-Zelle">Alkaline</a>), also z.B. 9 Batterien für drei Nodes</li>
+</ul>
+<h2 id="was-haben-wir-hier">Was haben wir hier?<a class="headerlink" href="#was-haben-wir-hier" title="Permanent link">#</a></h2>
+<p>Das Tripwire<sup>TM</sup> System ist ein auf selbst programmierbaren Mikrokontrollern aufgebautes, simples Melde- oder Alarmsystem, das Ihnen per SMS Benachrichtigungen sendet, wenn sich etwas in einem überwachten Bereich bewegt. Das Set besteht aus der Basisstation, "RX Base" und den Funk-Bewegungssensoren "TX Nodes". Das Kürzel "RX" ist hier die gängige Abkürzung für englisch "receiving" (zu deutsch "empfangen") und "TX" für "transmitting" ("senden", "TX Node" ist demnach ein "Sendeknoten"). Es handelt sich also um eine Basisstation, die empfangen kann und drei Sensorknoten, die sich per Funk an die Basisstation wenden können.</p>
+<p>Wie schon aus der Bezeichnung mit <em>RX</em> und <em>TX</em> hervorgeht, handelt es sich bei der Funkstrecke zwischen den Komponenten nicht um eine bi-direktionale Verbindung, d.h. die Funk-Sensoren können jeweils <em>nur</em> senden, die Basisstation kann <em>nur</em> empfangen. Das bringt auf der einen Seite kleine Einschränkungen in der Praxis mit sich, ermöglicht aber auf der anderen Seite, dass die Funkkomponenten von Ihnen sehr einfach zu handhaben sind und ihre Anschaffung für Sie preiswert ist. Wenn Sie von diese Einschränkung wissen, können Sie die Anlage besser verstehen und sie hoch effektiv für Ihre Zwecke einsetzen.</p>
+<p>Nach dem Auspacken der Komponenten werden Sie bemerken, dass der Baukasten neben den kleineren elektronischen und mechanischen Teilen, den grünen Leiterplatten und den wie Golfbällen aussehenden Bewegungssensoren überwiegend aus kleinen elektronischen Modulen besteht. Drei dieser Module seien hier hervorgehoben:</p>
+<h3 id="arduino-pro-mini-33-volt">Arduino Pro Mini 3.3 Volt<a class="headerlink" href="#arduino-pro-mini-33-volt" title="Permanent link">#</a></h3>
+<p>Die Funk-Bewegungssensoren "TX Nodes" basieren auf einem Arduino<sup>TM</sup>-kompatiblen Mikrokontroller, dem <em>Arduino Pro Mini 3.3V</em>. Dieser Mikrokontroller liegt hier als sog. <em>Klon</em> vor, also einer innoffiziellen - daher günstigeren - aber nach den Spezifikationen der <a href="https://de.wikipedia.org/wiki/Arduino_(Plattform)">Arduino</a>-Organisation hergestellten kompatiblen Version. Der <a href="https://de.wikipedia.org/wiki/Mikrocontroller">Mikrokontroller</a> verarbeitet das Programm des Sensorknotens, überwacht den Bewegungssensor und übermittelt Funknachrichten an die Basisstation. Das Herz, der eigentliche Mikrokontroller, sitzt dabei in der Mitte der Platine, ein ATMEL <a href="https://en.wikipedia.org/wiki/ATmega328">ATmega328P</a>, der als Ein-Chip-Mikrokontroller u.a. eine 8-bit RISC CPU zu einem programmierbaren System vereint. Der Zusatz "P" im Namen des Mikrokontrollers deutet auf eine Variante hin, die in der Lage ist, in besonders energiesparenden Modi betrieben zu werden.</p>
+<p>Wir verwenden hier die 3.3 Volt Variante, die den Atmel Processor mit 8Mhz statt 16Mhz taktet und einen anderen Spannungswandler verbaut hat.</p>
+<p>Mit der empfohlenen Firmware und einigen Maßnahmen zur Minderung des Stromverbrauchs (LEDs entfernen, Sleep-Modes in der Software, etc.) kann ein <em>TX Node</em> über mehrere Monate bis zu einem Jahr mit nur einem Satz Batterien ununterbrochen aktiv sein.</p>
+<p><strong>Links:</strong></p>
+<ul>
+<li>Der <a href="https://www.arduino.cc/en/Guide/ArduinoProMini">offizielle Einführungsleitfaden zum Arduino Pro Mini</a> auf der Seite der Arduino Organisation.</li>
+</ul>
+<h3 id="esp8266-mikrokontroller">ESP8266 Mikrokontroller<a class="headerlink" href="#esp8266-mikrokontroller" title="Permanent link">#</a></h3>
+<p>Die Basisstation basiert auf einem Leistungsfähigeren Mikrokontroller, dem <a href="https://de.wikipedia.org/wiki/ESP8266">Espressif ESP8266</a>, einem leistungsfähigen Mikrokontroller mit 32-Bit Prozessorkern und integriertem WLAN (WiFi) nach IEEE 802.11 b/g/n. Das im Baukasten vorliegende Modul ist ein Klon - also eine innoffizieller, daher günstigerer - Aufbau nach dem Vorbild eines Wemos D1 R1 Mini, mit dem er Pinkompatibel ist.</p>
+<p>Da die Basisstation über ein Netzteil dauerhaft mit Strom versorgt wird, werden die Stromsparfunktionen des ESP8266 nicht so sehr genutzt, wie bei den Mikrokontrollern der Sensorknoten.</p>
+<p>Die WLAN-Sendeeinheit des ESP8266 kann softwareseitig abgeschaltet werden. Anders und im vorteil als gegenüber vielen anderen Hobby-Alarmsystemen ist der Betrieb des Tripwire_Tripwire_<sup>TM</sup> Systems auch mit nur sporadischem bis vollkommen ohne Zugang zum lokalen Netz oder dem Internet möglich. Die Darstellung des Administriations-Interfaces im lokalen Netzwerk dient der Bequemlichkeit und ist nicht zum Betrieb nötig. Die Abfrage der Uhrzeit über das Internet oder die zusätzliche Meldung des Anlagenstatus in das Internet ist optional. Die Anlage setzt Benachrichtigungen über das GSM Mobilfunknetz ab un d nutzt keine externen Cloud-Dienstleister, keine Push-Nachrichten und verwendet keine Handy-App.</p>
+<p>Da die Firmware aber von Ihnen verändert werden kann, können Sie alle diese Funktionen selbst implementieren - vorausgesetzt sie akzeptieren, dass Sie damit die bestimmungsgemäße Verwendung dieses Baukastens verlassen (s. Hinweise zum Selbstbau und Rechtliche Bestimmungen).</p>
+<p><strong>Links:</strong></p>
+<ul>
+<li>Häufig wird der ESP8266 mit einem LUA interface als sog. NodeMCU betrieben. Wir verwenden jedoch die <a href="https://de.wikipedia.org/wiki/C_(Programmiersprache)">C</a>-basierte <a href="https://en.wikipedia.org/wiki/Arduino_IDE">Arduino IDE</a>. Dieser <a href="https://www.heise.de/ct/artikel/Arduino-IDE-installieren-und-fit-machen-fuer-ESP8266-und-ESP32-4130814.html">Artikel</a> beschreibt, wie man die Arduino IDE für die Verwendung eines ESP8266 konfigurieren muss.</li>
+<li>Das Arduino-esp8266 Projekt ermöglicht es, dass die Arduino IDE für den ESP8266 genutzt werden kann: <a href="https://github.com/esp8266/Arduino">https://github.com/esp8266/Arduino</a></li>
+<li>Dokumentation des Wemos D1 Mini <a href="https://wiki.wemos.cc/products:d1:d1_mini">https://wiki.wemos.cc/products:d1:d1_mini</a></li>
+</ul>
+<h3 id="sim800l-gsm-modem">SIM800L GSM-Modem<a class="headerlink" href="#sim800l-gsm-modem" title="Permanent link">#</a></h3>
+<p>Das GSM-Modem der Firma <a href="https://simcom.ee/">SIMCom</a> vom Typ 800L ist ein 4-Band GSM/GPRS-Modul das im Grunde ein vollständiges Mobiltelefon in Chipform ist. Über eine serielle Schnittstelle läßt sich das Modem wie ein Telefon bedienen. Wenn eine freigeschaltete SIM-Karte eingesetzt ist, kann das Modul drahtlos Anrufe aufbauen, Anrufe annehmen, Informationen über das Mobilfunknetz abfragen, Auskunft über die Verbindungsqualität geben und Kurznachrichten absetzen und empfangen.</p>
+<p>Als Komponente der Basisstation des Tripwire Systems wird das GSM-Modem vom ESP8266 Mikrocontroller über seine serielle Schnittstelle angesprochen. Da die Module zum Teil auf unterschiedlichen Spannungsniveaus arbeiten ist in den seriellen Leitungen, gut sichtbar wegen der dazu eingesetzten Widerstände, ein Spannungsteiler eingesetzt (Sie werden dies beim Aufbau der Basisstation sehen). Ein weiterer Teil der fordernden Spannungsversorgung des SIMCom Moduls ist die Tatsache, dass die Kommunikation mit dem Mobilfunknetzt bisweilen große Stromstärken bis 2 Ampere erwartet. Daher sitzt auf der Basisstation ein leistungsfähiger Spannungswandler und diverse Puffer-Kondensatoren um Spitzen in der Stromversorgung des GSM-Modems abzufangen.</p>
+<p>Das Modul bietet auch die Möglichkeit einen Lautsprecher und ein Mikrofon anzuschließen - diese Funktion und damit auch die Pins sind im Rahmen des Tripwire Systems jedoch ungenutzt bzw. unbelegt.</p>
+<p>Für den ordnungsgemäßen Betrieb des Moduls ist ein ausreichend guter Empfang der Funksignale des Mobilfunknetzes nötig. Das GSM-Modem ist in der Lage, seine Abstrahlintensität zu regeln und wird seine Abstrahlleistung bis auf ein Maximum erhöhen, wenn der Empfang schlecht ist. Betreiben Sie das Modem daher nie ohne eine Antenne angeschlossen zu haben! Es ist dringen erforderlich mindestens eine für das GSM-Netz ausgelegte helixförmige (schraubenförmige) Drahantenne am Antennenausgang anzulöten. Wesentlich besser ist es, über den u.Fl Antennenanschluss ganz in der Ecke des Modul-PCBs eine für GSM-Bänder ausgelegte PCM-Antenne oder eine für GSM-Bänder ausgelegte Pigtail Antenne anzuschließen. Die Effektivität der Antenne wird so erhöht und das Modul kann bei niedriger Sendeleistung arbeiten und Signale leichter und verlässlicher empfangen.</p>
+<p><strong>Links:</strong></p>
+<ul>
+<li>Eine Übersicht über die SIMCom Produktfamilie der GSM-Modems findet sich unter <a href="https://simcom.ee/?gsm-gprs">https://simcom.ee/?gsm-gprs</a>.</li>
+<li>Informationen zu Referenzschaltungen bei der Hardwareintegration des SIMCom 800L enthält der offizielle <a href="https://simcom.ee/documents/SIM800L/SIM800L%28MT6261%29_Hardware%20Design_V1.01.pdf">Hardware Design Guide</a>.</li>
+<li>Eine umfassende Darstellung aller über die serielle Schnittstelle verfügbaren sog. "AT Kommandos" enthält das offizielle <a href="https://simcom.ee/documents/SIM800C-DS/SIM800%20Series_AT%20Command%20Manual_V1.10.pdf">AT Command Manual</a>.</li>
+<li>Weitere technische Dokumente zum Download bietet die Seite <a href="https://simcom.ee/documents/?dir=SIM800x">https://simcom.ee/documents/?dir=SIM800x</a>.</li>
+</ul>
+<h2 id="es-geht-los-die-aufbau-anleitung">Es geht los! - Die Aufbau-Anleitung<a class="headerlink" href="#es-geht-los-die-aufbau-anleitung" title="Permanent link">#</a></h2>
+<p>Das Tripwire-System besteht aus zwei verschiedenen Hauptkomponenten, der Basisstation <em>RX Base</em> und dem Funk-Sensorknoten <em>TX Node</em>, der dreimal in der Packung ist. Wir beginnen mit dem Aufbau eines Sensorknotens.</p>
+<h2 id="aufbau-eines-sensorknotens-tx-node">Aufbau eines Sensorknotens <em>TX Node</em><a class="headerlink" href="#aufbau-eines-sensorknotens-tx-node" title="Permanent link">#</a></h2>
+<h3 id="buchsenleisten">Buchsenleisten<a class="headerlink" href="#buchsenleisten" title="Permanent link">#</a></h3>
+<p>Die nachstehenden Bilder zeigen was wir in den nächsten Schritten aufbauen werden: den TX Node Funk-Sensorknoten.</p>
+<p><img src="images/TX_Node_components.jpg" alt="silk" width="800" /></p>
+<p>Wir beginnen mit der Grund-Leiterplatte. Nehmen Sie eine der kleineren grünen Leiterplatten aus der Packung. Sie ist mit "Tripwire TX Node" in der linken oberen Ecke der Vorderseite beschriftet. Das Ergebnis wird in etwa so aussehen:</p>
+<p><img src="images/TX_PCB_build.jpg" alt="silk" width="800" /></p>
+<p>Ohne aufgelötete Komponenten sieht das so aus: Die folgenden Bilder zeigen die original Leiterplatte, in der Mitte nur die Bedruckungen und rechts eine schematische Ansicht, die die Lötstellen hervorhebt.</p>
+<p>TODO:<img src="images/TX_PCB_silk.png" alt="Leiterplatte" width="200" align="left"/></p>
+<p><img src="images/TX_PCB_silk.png" alt="Bedruckungen" width="200" align="left"/></p>
+<p><img src="images/TX_PCB_abstract.png" alt="Grafische Darstellung" width="200"/></p>
+<p>Als erstes werden wir die Buchsenleisten auflöten. Nehmen Sie aus der Packung:</p>
+<ul>
+<li>1x 2er Buchsenleiste</li>
+<li>1x 3er Buchsenleiste</li>
+<li>2x 3er Buchsenleiste abgewinkelt 90°</li>
+<li>1x 9er Buchsenleiste</li>
+</ul>
+<p>und platzieren Sie sie an den markierten Stellen auf der Leiterplatte.</p>
+<p><img src="images/TX_PCB_abstract_placement_sockets.png" alt="Platzierung der Buchsenleisten" /></p>
+<p>A = eine 3er Buchsenleiste mit abgewinkelten Beinchen.
+B = eine 9er Buchsenleiste mit geraden Beinchen.
+C = ebenfalls, eine 3er Buchsenleiste mit abgewinkelten Beinchen.
+D = eine 2er Buchsenleiste mit abgewinkelten Beinchen
+E = eine 3er vertikale Buchsenleiste (gerade Beinchen)</p>
+<p>Achten Sie beim Anlöten der vertikalen Buchsenleiste B und E darauf, dass Sie sie gerade ausrichten. Hier wird später der Arduino Pro Mini kompatible Mikrokontroller eingesetzt und der Abstand der Buchsenleisten sollte möglichst gut zum Abstand der Stiftleisten an der Mikrokontroller-Platine passen. Wenn Stifleisten oder Buchsenleisten schief stehen, passen die Komponenten nicht aufeinander.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Der TX Node Funk-Sensorknoten ist ausgelegt um primär als Bewegungsmelder zu arbeiten. Es ist aber möglich, eine weitere Funktion, einen weiteren Auslöser, zu verwenden. An den zwei Lötkontakten mit der Beschriftung "optional interrupt switch" können Sie einen NC ("normally closed") Schalter verbinden. Beim Einschalten des Sensors wird von der Standard-Firmware überprüft, ob diese beiden Kontakte eine Verbindung haben - ein Schalter o.ä. eben dafür sorgt, dass dieser Kontakt verbunden ist. Wenn ja, dann wird die Firmware einen Interrupt auch für diesen Kontakt überwachen, und immer dann, wenn diese Verbindung unterbrochen wird, eine Alarmmeldung absetzen. Gängige Magnetschalter ("Reed Swtiches), wie man sie an Fenstern oder Türen anbringen kann sind i.d.R. NC-Swiches ("normally closed"), d.h. wenn ein Magnet in der Nähe ist - ein Fenster oder eine Tür geschlossen ist - ist der Reed Schalter geschlossen und ein Strom kann fließen. Wird der Magnet entfernt, öffnet sich der Schalter und der Kontakt wird unterbrochen.</p>
+</div>
+<p>Das Anbringen der Buchsenleiste D ist optional und kann ausgelassen werden, wenn Sie keinen Steckkontakt an den Lötstellen für den optionalen NC Unterbrecherschalter haben wollen.</p>
+<h3 id="buzzer-und-kondensator">Buzzer und Kondensator<a class="headerlink" href="#buzzer-und-kondensator" title="Permanent link">#</a></h3>
+<p>Auf der Platine des TX Node sitzt ein Miniaturlautsprecher, ein <a href="https://de.wikipedia.org/wiki/Summer_(Elektronik)">Summer</a> oder englisch "Buzzer" (in der Packung ist entweder ein magnetisch oder piezokeramisch angetriebener Summer. Dieser Unterschied ist für den Aufbau aber nicht relevant). Hier entstehen die Piep- und Warntöne. Eine weitere Komponente, die wir in diesem Schritt verbauen, ist ein <a href="https://de.wikipedia.org/wiki/Keramikkondensator">Keramikkondensator</a> (auch "Kerko" genannt) mit 0.1 uF. Er dient der Filterung der Spannungsversorgung des Sendemoduls.</p>
+<p><img src="images/TX_PCB_abstract_placement_components.png" alt="Platzierung von Buzzer und Kondensator" /></p>
+<p>Platzieren Sie einen der Keramikondensatoren aus der Packung an der mit "A" in der Grafik gekennzeichneten Stelle und löten Sie Ihn fest. Die Polung/ Ausrichtung ist bei keramischen Kondensatoren irrelevant, es ist also egal welches Bein in welches Loch kommt. Fädeln Sie ihn einfach mit seinen Drahtbeinchen durch die Lötaugen der Platine.  Ziehen Sie den Kondensator ruhig nah an die Oberfläche der Leiterplatte. Eventuell können Sie den Beinchendraht auf der anderen Seite der Leiterplatte, zur Befestigung und Erleichterung des Lötens, leicht nach außen biegen. Löten Sie den Kerko dann fest.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Wenn Sie Komponenten mit langen Drahtbeinen durch die Lötaugen stecken, Komponenten wie diesen Keramikkondensator, dann wird auf der Rückseite der Leiterplatte, nach dem Einfädeln und Anlöten, einiges an Draht überstehen. Sie können diese Überstände mit einer kleinen Kneifzange etwa 1-2mm über der Lötstelle abzwicken.</p>
+</div>
+<p>Nehmen Sie einen der kleinen runden/ zylindrischen Buzzer aus der Packung und stecken Sie ihn so in die Platine, dass das mit "+" (plus) gekennzeichnete Beinchen in das entsprechend gekennzeichnete Beinchen auf der Platine gesteckt ist. Beachten Sie, dass die Beschriftung auf der Unterseite des Buzzers entscheidend ist! Die Oberseite (den Beinchen abgewandt) ist die schwarze Plastikhülle, die manchmal leicht verdreht ist, und wenn dort ebenfalls eine Plus-Markierung ist, ist sie vermutlich an der falschen Stelle.</p>
+<h3 id="der-spannungswandler">Der Spannungswandler<a class="headerlink" href="#der-spannungswandler" title="Permanent link">#</a></h3>
+<p>Nehmen Sie die kleine Platine des Spannungswandlers aus der Packung. Es handelt sich um einen Gleichstromwandler, der die Spannung herauf wandelt, einen DC (Gleichspannungs) Ste-Up (herauf) "Booster" (Wandler). Die kleine Platine wird üblicher Weise in USB Power-Bars verbaut. Aus einer Batterie mit einer Spannung von unter 5V erzeugt das Modul eine gleichmäßige Spannung von 5V, bis die Batterie erschöpft ist. Hier wird der Wandler den Bewegungsmelder des TX Node mit Strom versorgen.</p>
+<p>Der Spannungswandler wird an der in der Grafik gekennzeichneten Stelle vertikal, also senkrecht, im 90 Grad Winkel zur Hauptplatine des TX Node, auf die Platine montiert:</p>
+<p><img src="images/TX_PCB_abstract_placement_booster.png" alt="Platzierung des Spannungswandlers" /></p>
+<p><strong>Wazu dient der Spannungswandler?</strong></p>
+<p>Der <a href="https://de.wikipedia.org/wiki/Pyroelektrischer_Sensor">PIR Bewegungsmelder</a> vom Typ SR501 arbeitet intern mit 3.3V. Das PIR-Modul erwartet eine 5V Eingangsspannung, regelt diese aber dann auf die Betriebsspannung von 3.3V mit einem eigenen Spannungswandler herunter. Das Design des TX Node sieht vor, dass wir einen zusätzlichen Spannungswandler installieren, mit dem wir die 3.3V Betriebsspannung des Arduino Pro Mini auf 5V heraufregeln ("boosten", "step-up" Wandlung) werden. Wir regeln also Spannung herauf, nur damit sie dann wieder im PIR-Modul herab geregelt wird? Aber warum?</p>
+<p>Die Antwort liegt in der Empfindlichkeit des PIR-Sensors. Der Bewegungsmelder reagiert auf kleinste Veränderungen in seinem Infrarot-Sichtfeld. Diese Änderungen generieren kleine Spannungsschwankungen, die der Sensor als Impuls zur Auslösung betrachtet. Um diese kleinen Schwankungen sicher zu detektieren ist eine sehr gleichmäßige und störungsfreie Spannungsversorgung nötig.</p>
+<p>Es wäre möglich, den Sensor ohne das Auf und Ab der Spannungswandlung direkt mit im Stromkreis des Mikrokontrollers zu betrieben. Jedoch generiert das Pro Mini immer wieder Rauschen im Stromkreis. Zudem schwank in den verschiedenen Betriebsmodi der Strombedarf beträchtlich. Diese Schwankungen und Störungen würden zu Fehlauslösungen führen. Die Spannungswandler dienen hier als effektive Filter. Der speziell für den Sensor zunächst herauf geregelte und dann wieder herab geregelte Strom ist sehr gleichmäßig und versorgt den Sensor auf sichere Weise.</p>
+<p><strong>Kleine Vorbereitungen</strong></p>
+<p>Bevor Sie das Modul auf der TX Node Platine verlöten können, ist etwas Vorarbeit nötig. Wir müssen das Modul vertikal montieren - daher benötigt die Platine zwei Stifte, um 90 Grad gedreht, an den Kontakten auf der Eingangsseite der Wandlerplatine.</p>
+<p><img src="images/TX_PCB_abstract_booster_preparation.png" alt="Grafische Darstellung der Vorbereitung" /></p>
+<p>Nehmen Sie zwei einzelne Stifte und platzieren Sie sie zum Anlöten plan auf die Kontakte. Es ist etwas Fingerspitzengefühl nötig, um die Stifte gerade und korrekt zu platzieren. Eine Hile ist es, eine noch unverwendete Buchsenleiste als Halterung zu verwenden, Stecken Sie die Stifte mit den längeren Enden in die Buchsenleiste. lassen Sie dabei zwischen den Stiften den gleichen Abstand wie er später auf der TX Node Platine sein wird: 4 Löcher. Löten Sie die Stifte an.</p>
+<p>Wenn die Wandlerplatine später hochkant auf der TX Node Platine stehen wird, dann wird der Spannungsausgang oben, ca 2cm über der Oberfläche der TX Node Platine liegen. Wir verwenden daher einen kleinen Jumper-Draht, um die Ausganskontakte wieder zurück auf die Platine zu verbinden.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Bei der Spannungswandlung werden die Masseseiten der Stromkreise mit den unterschiedlichen Spannungen miteinander verbunden. Auf der Eingangsseite haben wir den Masse (Ground, GND) Kontakt und den VCC (Pluspol). Auf der Ausgangsseite nutzen wird nur den Pluspol. Was ist mit dem Masse-Ausgang? Es scheint nur so, als sei der Spannungswandler nur mit drei Kontakten angeschlossen. Der Massekontakt ist auf der Wandlerplatine selbst nicht sichtbar durchverbunden. Daher können wir den Massekontakt auslassen.</p>
+</div>
+<p>Bereiten Sie den kleinen Jumper-Draht vor und löten Sie ihn in in das linke Loch der vier Lötstellen auf der Eingangsseite - so dass er auf der selben Seite wie die gerade angelöteten Stiftkontakte herausragt.</p>
+<p><strong>Entfernen der Power LED</strong></p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Es macht Sinn, diesen Arbeitsschritt erst nach der grundlegenden Funktionsprüfung durchzuführen. Die LED gibt Ihnen Aufschluss darüber, ob das Modul korrekt mit Strom versorgt wird, es grundlegend funktioniert.</p>
+</div>
+<p>Das kleine vorgefertigte Spannungswandler-Modul besitzt eine "Power LED", die normaler Weise anzeigen soll, wenn das Modul mit Strom versorgt ist, es also "in Betrieb" ist. Der TX Node Sensor soll über viele Wochen arbeiten und muss daher möglichst wenig Strom verbrauchen. Auch eine so kleine LED verbraucht Strom und wir müssen sie daher entfernen.</p>
+<p>Die Power-LED ist ein SMD Bauteil (Surface-mounted device), also sehr klein. Benutzen Sie entweder eine kleine Kneifzange, um die LED einfach zu zerstören oder hebeln sie sie mit der Spitze eines Cutter-Messers mit kleiner Gewalt von der Oberfläche des Moduls. Es ist auch möglich, die ganze LED mit dem Lötkolben zu erhitzen und dann mittels der kapillaren Kraft des Lötzinns an der Spitze des Lötkolbens nach Verflüssigen der LED-Lötkontakte von der Oberfläche zu heben.</p>
+<p><strong>Anlöten des Spannungswandlers</strong></p>
+<p>Stellen Sie jetzt den Spannnungswandler vertikal auf die Hauptplatine, so dass die Seite mit den Komponenten in Richtung der längeren Seite der Hauptplatine (nach hinten) weist. Die gerade angelöteten Stifte in die Lötaugen - mit der korrekten Polung, GND and Masse und "+IN" an den Pluspol. Fädeln Sie auch den kleinen Jumperdraht direkt ein. Verlöten Sie dann die drei Kontakte.</p>
+<p><img src="images/TX_booster_placement_and_soldering.jpg" alt="Platzierung des Spannungswandlers" /></p>
+<h3 id="anschluss-des-batteriefachs">Anschluss des Batteriefachs<a class="headerlink" href="#anschluss-des-batteriefachs" title="Permanent link">#</a></h3>
+<p>Der TX Node Sensorknoten ist batteriebetrieben. In der Packung finden sie mehrere Batteriefächer, die jeweils drei AA Alkaline Batterien aufnehmen und den Sensor über viele Wochen mit Strom versorgen können.</p>
+<p><img src="images/TX_PCB_abstract_power_connector.png" alt="Anschlussstelle des Stromkabels" /></p>
+<p>Die Anschlüsse für die Kabel des Batteriefaches befinden sich im "hinteren" Teil der TX Node Hauptplatine. Sie sind in der Grafik blau markiert. Fädeln Sie die Kabel des Batteriefaches gemäß der Polung in die Lötaugen (Pluspol, "+", rotes Kabel und schwarzes Kabel an "-" bzw. "GND"),</p>
+<p><img src="images/TX_power_cables.jpg" alt="Anschlussleitungen des Batteriefachs" /></p>
+<h2 id="anloten-der-stiftleisten-an-den-mikrokontroller">Anlöten der Stiftleisten an den Mikrokontroller<a class="headerlink" href="#anloten-der-stiftleisten-an-den-mikrokontroller" title="Permanent link">#</a></h2>
+<p>Nehmen Sie eines der Pro Mini Module zur Hand. Wir werden jetzt Stiftleisten an die Kontakte des Mikrokontrollers löten. Normaler Weise belegt man zum experimentieren mit derartigen Mikrokontrollern alle Kontakte - hier werden wir nur die benötigten Stifte anlöten.</p>
+<p>Schauen Sie sich die hier in der Anleitung vorhandenen Bilder an. Achten Sie darauf, die Platine des Moduls richtig herum mit Stiften zu versehen, d.h. die Stifte müssen auf der Seite abstehen, auf der <em>nicht</em> der rautenförmige schwarze Chip (ATmega 328) aufgebracht ist.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Wenn Sie später alle Kontakte mit Stiftkontakten belegen wollen, so ist das leicht nachträglich möglich. Damit sich das Pro Mini Modul aber in die Buchsenleisten des TX Node Sensors setzen lässt, brauchen wir hier eine "Lücke" in den Stiftleisten - unter den Analogkontakten (dort wird das Sendemodul sitzen) und unter den seriellen Kontakten des Pro Mini (dort ist optional der Steckkontakt für einen Unterbrecherschalter aufgelötet)</p>
+</div>
+<p><img src="images/TX_placement_pinheaders.jpg" alt="Foto eines Pro Mini mit Stiftkontakten" width="800"/></p>
+<p>Löten Sie zunächst die 4 Stifte des "Programming-Interface" an. Das sind die vier Kontakte, über die eine Verbindung mit dem ATMega 328 auf dem pro Mini hergestellt wird. Es handelt sich um die Kontakte Masse (GND), VCC (Pluspol, Spannung) und seriell TX und RX. Auf den Bildern sind das die vier Stifte, die auf der Oberseite montiert sind. Sie können gerade Stifte wie abgebildet verwenden, oder rechtwinklig abgewinkelte - ganz wie Sie wollen. Die Stifte sind auf der Oberseite, damit man auch wenn das Pro Mini in die Buchsen auf der Hauptplatine des TX Node eingesteckt sind, die Stifte des Programming-Interface leicht erreichen kann.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Anders als andere Arduino-kompatible Mikrokontroller besitzt das <em>Pro Mini</em> keine USB-Schnittstelle - weil kein USB-zu-Serial Wandlerchip verbaut ist. Es ist also nicht nur mit einem Kabel an einen PC anzuschließen. Man benötigt zum Programmieren einen seriellen Adapter, üblicher sind hier USB-zu-TTL serielle Adapter.</p>
+</div>
+<p>Wenn Sie die vier Stifte auf der Oberseite angelötet haben, drehen Sie das Pro Mini um und löten Sie die übrigen Stifte an. Nehmen Sie dazu eine 9er Stifteleiste und löten Sie sie auf die Kontakte 9-8-7-6-5-4-3-2-1-GND auf der einen Seite des Pro Mini Moduls.</p>
+<p>Nehmen Sie dann eine 3er Stiftleiste und löten Sie sie auf die Kontakte GND-RST-VCC auf der gegenüberliegenden Seite. Übrigens wird der RST Kontakt auf der Platine nicht verbunden sein - er wird hier nur der Einfachheit halber mit angebracht.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Es ist wichtig, dass Sie die Stifte gerade ausrichten und festlöten, damit das Modul später gut in die Buchsenleiste der Hauptplatine gepresst werden kann. Da wir im vorherigen Schritt bereits die Buchsenleisten auf der TX Node Hauptplatine installiert haben, könne Sie die Stifte einfach schon einstecken, mit den langen Enden zuerst. Legen bzw. stecken Sie dann das noch unverlötete Pro Mini auf die gerade eingesteckten Stifte. Auf diese Weise fixieren Sie die Stifte beim Löten genau in der richtigen Position.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Ein anderer Trick um ein gutes Ergebnis zu erzielen und die Stifte möglichst gerade auszurichten, ist die Stiftleisten in ein "Breadboard" (eines dieser farbigen, meist weißen, Prototyping-Boards, wie sie es vermutlich aus einem Arduino Experiementierkasten bereits besitzen) zu stecken. Wenn Sie dann die Platine des Pro Mini Moduls auf die Stifte legen und die Kontakte verlöten, sind im Ergebnis die Stifte schön gerade ausgerichtet. Und wenn Ihnen ein ebenso gerade Ergebnis mit den Buchsen gelungen ist, werden die Stifte gut passen.</p>
+</div>
+<h3 id="entfernen-der-power-led-des-pro-mini-moduls">Entfernen der Power-LED des Pro Mini Moduls<a class="headerlink" href="#entfernen-der-power-led-des-pro-mini-moduls" title="Permanent link">#</a></h3>
+<p>Wie auch der Spannungswandler besitzt das Arduino-kompatible Pro Mini Modul eine "Power LED", die normaler Weise anzeigen soll, wenn das Modul mit Strom versorgt ist, es also "in Betrieb" ist. Der TX Node Sensor soll über viele Wochen arbeiten und muss daher möglichst wenig Strom verbrauchen. Auch eine so kleine LED verbraucht Strom und wir müssen (oder sollten) sie daher entfernen.</p>
+<p>Die Power-LED ist ein SMD Bauteil (Surface-mounted device), also sehr klein. Benutzen Sie entweder eine kleine Kneifzange, um die LED einfach zu zerstören oder hebeln sie sie mit der Spitze eines Cutter-Messers mit kleiner Gewalt von der Oberfläche des Moduls. Es ist auch möglich, die ganze LED mit dem Lötkolben zu erhitzen und dann mittels der kapillaren Kraft des Lötzinns an der Spitze des Lötkolbens nach Verflüssigen der LED-Lötkontakte von der Oberfläche zu heben.</p>
+<h3 id="aufspielen-der-firmware">Aufspielen der Firmware<a class="headerlink" href="#aufspielen-der-firmware" title="Permanent link">#</a></h3>
+<p>Nutzen Sie nun einen USB-zu-TTL seriellen Adapter, um den Mikrokontroller mit dem Computer zu verbinden. Beginnen Sie mit dem Massekontakt. Verbinden Sie GND mit GRD. Beachten Sie, dass das Modul mit 3.3V betrieben wird. Stecken Sie also, falls Ihr Adapter 3V und 5V Anschlüsse hat, das Kabel für die Stromversorgung auf den 3V Anschluss und die andere Seite auf den mit VCC beschrifteten Kontakt des Mikrokontrollerboards. Verbinden Sie TX mit RX und RX mit TX.</p>
+<p>Stecken Sie den seriellen Adapter in einen freien USB Steckplatz Ihres Computers. Stellen Sie sicher, dass der Adapter korrekt erkannt wird. Installieren Sie, wenn nötigt, erforderliche Treiber.</p>
+<p><strong>Firmware Download</strong></p>
+<p>Die Software, die Ihr TX Node zum Laufen braucht erhalten Sie, wie auch dieses Handbuch hier, im Internet auf der Entwicklerplattform <em>github</em>. Besuchen Sie also die <strong>github</strong> Seite Ihres <em>Tripwire</em> Baukastens.</p>
+<p><a href="https://github.com/DIY-Home-Security/">https://github.com/DIY-Home-Security/</a></p>
+<p>Klonen Sie das Projektarchiv des TX Node oder laden sie ein ZIP-Archiv herunter:</p>
+<p><a href="https://github.com/DIY-Home-Security/Tripwire-TX-Node">https://github.com/DIY-Home-Security/Tripwire-TX-Node</a></p>
+<p><strong>Arduino IDE</strong></p>
+<p>Installieren und starten Sie die <strong>Arduino IDE</strong>. Die Software erhalten Sie auf der Seite des Arduino-Projektes:</p>
+<p><a href="https://www.arduino.cc/en/Main/Software">https://www.arduino.cc/en/Main/Software</a></p>
+<p>Installationsanleitungen für Ihr System sowie Hilftexte zur Einführung in die Arbeit mit der <em>IDE</em> finden Sie unter:</p>
+<p><a href="https://www.arduino.cc/en/Guide/HomePage">https://www.arduino.cc/en/Guide/HomePage</a></p>
+<p><img src="images/Arduino_IDE.png" alt="Foto eines Pro Mini mit Stiftkontakten" width="554"/></p>
+<p>Wählen Sie das korrekte Modul im "Board"-Menu der <em>IDE</em>. Gehen Sie dazu in das Drop-Down-Menu "Werkzeuge" &gt; "Board" und wählen Sie "Arduino Pro or Pro Mini".</p>
+<p>Wählen Sie den korrekten Prozessor "Prozessor"-Menu der <em>IDE</em>. Gehen Sie dazu in das Drop-Down-Menu "Werkzeuge" &gt; "Prozessor" und wählen Sie "ATmega328P (3.3V 8MHz)".</p>
+<p>Stellen Sie sicher, dass Ihr USB-zu-TTL Adapter unter "Werkzeuge" &gt; "Port" angezeigt wird und ausgewählt ist.</p>
+<p>Öffnen Sie das Firmware-Programm für den TX Node Sensorknoten. In der <em>Arduino IDE</em> werden die Skripte bzw. Programme "Sketch" genannt. Wählen Sie "Datei" &gt; "Öffnen".</p>
+<p>Im Quelltext der Software/Firmware für den Sensorknoten können Sie vor dem Hochladen des Sketches auf den Mikrokontroller ("Brennen") festlegen, welche Nummer (ID) dieser TX Node Sensor haben soll. Wenn das Programm unverändert ist, ist hier die "1" vergeben.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Sie werden diese Hochlade-Prozedur für alle drei im Baukasten enthaltenen TX Nodes wiederholen. Vor nachfolgenden Hochlade-Vorgängen müssen Sie also die dem TX Node vergebene Nummer ändern. Es sind Nummern von 1 bis 16 möglich, sie können also 16 Sensorknoten innerhalb eines Tripwire-Systems betreiben. Der Wert für die ID des Sensors wird angegeben mit 1000 multipliziert, also "1000" für "1", "2000" für "2", etc. Im Quellcode wird der Wert in der Konstante <em>"nodeId"</em> hinterlegt.</p>
+</div>
+<p><img src="images/Arduino_IDE_Node_ID.png" alt="nodeId Wert in der Arduino IDE" width="423" style="border: 1px solid #ccc;"/></p>
+<p>Wählen Sie "Sketch" &gt; "Hochladen" aus dem Drop-Down-Menü (oder drücken Sie das Icon in der Werkzeugleiste der IDE, Tastaturkürzel STRG-U).</p>
+<p>Legen Sie einen Finger auf den <em>RESET</em>-Taster in der Mitte des Pro-Mini Moduls und halten Sie den Taster heruntergedrückt bis im unteren schwarzen Fenster der <em>Arduino IDE</em> nach dem Kompilieren des Codes mit einem Mal viel Text erscheint. Lassen Sie den Taster dann los. Der Hochlade-Vorgang sollte beginnen.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Anders als andere Arduino-kompatible Module (mit USB Anschluss) besitzen Pro Mini-kompatible Module (welche nur einen seriellen Anschluss haben) keinen softwareseitig auslösbaren Reset-Mechanismus. Der Mikrokontroller erwartet neue Software immer kurz nach dem Start. Daher muss ein Reset von Hand ausgelöst werden - genau in dem Moment, wenn die <em>Arduino IDE</em> bereit zum Übertragen ist. Mit etwas Übung bekommt man den richtigen Moment dafür gut hin.</p>
+</div>
+<h3 id="einstellen-des-tx-node-sr501-bewegungsmelders">Einstellen des <em>TX Node</em> SR501 Bewegungsmelders<a class="headerlink" href="#einstellen-des-tx-node-sr501-bewegungsmelders" title="Permanent link">#</a></h3>
+<p>Der im Sensorknoten TX Node eingesetzte Bewegungsmelder vom Typ SR-501 ist ein passiv arbeitender Infrarotsensor (PIR). Bei Auslösung durch Infrarotstrahlung funktioniert er wie ein Schalter, der im Fall dieses Typs ein Signal ausgibt.</p>
+<p>Wie empfindlich der Sensor arbeitet und wie lange er das Meldesignal ausgibt kann mittels zwei kleiner Potentiometer Einstellschrauben auf der Oberseite des Sensors eingestellt werden. Wählen Sie hier einen mittleren Wert für die Empfindlichkeit ("Sensitivity") und etwa 2 Sekunden Dauer für die Ausgabe des Impulses ("Time" oder Intervall). In der Regel sind diese Werte bereits vom Hersteller eingestellt.</p>
+<p><img src="images/TX_SR501_adjustment.jpg" alt="Bild der Potis, mit Angaben zur Drehrichtung" width="450" /></p>
+<h3 id="debug-interface-des-funk-sensors-tx-node">Debug-Interface des Funk-Sensors TX Node<a class="headerlink" href="#debug-interface-des-funk-sensors-tx-node" title="Permanent link">#</a></h3>
+<p>Mit der Standard Firmware gibt das Pro Mini über seine seriellen Pins <em>keine</em> Debug-Informationen aus. Das dient der Reduktion von Rauschen in der Spannungsversorgung des Moduls und soll Fehlalarme verhindern.</p>
+<p>Möchten Sie Debug-Information auslesen, so müssen Sie also zunächst die Ausgabe von Debug-Informationen einschalten. Dazu müssen Sie eine leicht veränderte Firmware aufspielen, in der sie die <em>debug</em> Variable im Kopfteil des <em>Sketches</em> auf <em>"1"</em> setzen. Wenn das geschehen ist, ist der serielle Port auf 115200 Baud eingestellt und kann z.B. mit dem in die Arduino IDE eingebauten seriellen Monitor mitgelesen werden.
+Zum Anschluss des TX Node Pro Mini an Ihren Computer benötigen Sie einen USB auf TTL Serial-Adapter. Benutzen Sie die selben Anschlüsse, über die Sie bereits die Firmware aufgespielt haben.</p>
+<p>Verbinden Sie den Masseanschluss des Adapters mit dem Massepin des Pro Mini-kompatiblen Moduls. Verbinden Sie den mit TX beschrifteten Pin des USB-Adapters mit dem mit RX beschrifteten Pin des Pro Mini. Verbinden Sie den mit RX beschrifteten Pin des USB-Adapters mit dem mit TX beschrifteten Pin des Pro Mini. Verbinden Sie zuletzt den VCC Pin mit dem 3.3V Pin des Adapters.</p>
+<h3 id="aufbau-der-basisstation-rx-base">Aufbau der Basisstation <em>RX Base</em><a class="headerlink" href="#aufbau-der-basisstation-rx-base" title="Permanent link">#</a></h3>
+<h2 id="aufloten-der-buchsenleisten">Auflöten der Buchsenleisten<a class="headerlink" href="#aufloten-der-buchsenleisten" title="Permanent link">#</a></h2>
+<p>Nehmen Sie entsprechend der Pin-Anzahl vier Buchsenleiten aus der Verpackung:</p>
+<ul>
+<li>1x 5-pin Buchsenleiste</li>
+<li>2x 8-pin Buchsenleiste</li>
+<li>1x 2-pin Buchsenleiste</li>
+</ul>
+<p>Plazieren Sie die Buchsenleiste möglichst senkrecht auf der Leiterplatte und löten Sie sie an den angegebenen Stellen an.</p>
+<p><img src="images/RX_PCB_abstract_header_sockets.png" alt="Positionierung der Buchsenleisten" width="800" /></p>
+<h2 id="aufloten-der-widerstande">Auflöten der Widerstände<a class="headerlink" href="#aufloten-der-widerstande" title="Permanent link">#</a></h2>
+<p>Nehmen Sie die Widerstände aus der Packung. Es sind nur drei verschiedene Widerstände in der Packung.</p>
+<ul>
+<li>1x 220 Ohm <strong>Farbcode:</strong> TODO</li>
+<li>2x 1 kOhm (=1000 Ohm) <strong>Farbcode:</strong> TODO</li>
+<li>1x 5.6 kOhm (=5600 Ohm) <strong>Farbcode:</strong> TODO</li>
+</ul>
+<p>Online gibt es diverse Rechner, die Ihnen helfen einen Widerstand anhand der Farbringe zu identifizieren, zB. der <a href="https://www.digikey.de/de/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band">Widerstandsfarbcodekonverter für 4 Ringe</a></p>
+<p><img src="images/RX_PCB_abstract_placement_resistors.png" alt="Positionierung der Widerstände" width="800" /></p>
+<p>Fädeln Sie die Widerstände mit ihren Drahtbeinchen durch die Lötaugen der Platine. Die Polung ist bei diesen Bauteilen nicht relevant. Ziehen Sie die Widerstände ruhig nah an die Oberfläche der Leiterplatte. Eventuell können Sie den Draht auf der anderen Seite der Leiterplatte, zur Befestigung und Erleichterung des Lötens, leicht nach außen biegen. Löten Sie dann die Widerstände fest.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Wenn Sie Komponenten mit langen Drahtbeinen durch die Lötaugen stecken, Komponenten wie diese Widerstände, dann wird auf der Rückseite der Leiterplatte, nach dem Einfädeln und Anlöten, einiges an Draht überstehen. Sie können diese Überstände mit einer kleinen Kneifzange etwa 1-2mm über der Lötstelle abzwicken.</p>
+</div>
+<h2 id="aufloten-der-led-und-des-buzzers">Auflöten der LED und des Buzzers<a class="headerlink" href="#aufloten-der-led-und-des-buzzers" title="Permanent link">#</a></h2>
+<p><img src="images/RX_PCB_abstract_placement_led_buzzer.png" alt="Positionierung der Widerstände" width="800" /></p>
+<p>Neben dem Vorwiderstand im linken Bereich der Hauptplatine ist die Installation einer Signal-LED vorgesehen. Nehmen Sie die LED aus der Packung und sehen Sie sie sich an: eines der Beinchen ist kürzer, und auf dieser Seite ist das Plastikgehäuse der LED an einer Stelle abgeflacht. Diese Seite ist die negative Seite und kommt auf die dem Widerstand <em>abgewandte</em> Seite, von oben betrachtet also die rechte Seite. Auf der Leiterplatte ist auf dieser Seite der Hinweistext "flat edge, short leg".</p>
+<p>Nehmen Sie einen der kleinen runden/ zylindrischen Buzzer aus der Packung und stecken Sie ihn so in die Platine, dass das mit "+" (plus) gekennzeichnete Beinchen in das entsprechend gekennzeichnete Beinchen auf der Platine gesteckt ist. Beachten Sie, dass die Beschriftung auf der Unterseite des Buzzers entscheidend ist! Die Oberseite (den Beinchen abgewandt) ist die schwarze Plastikhülle, die manchmal leicht verdreht ist, und wenn dort ebenfalls eine Plus-Markierung ist, ist sie vermutlich an der falschen Stelle.</p>
+<p><img src="images/RX_Base_buzzer_and_led.jpg" alt="Ansicht des aufgelöteten Buzzers und der LED" width="450" /></p>
+<h2 id="aufloten-des-mikroschalters">Auflöten des Mikroschalters<a class="headerlink" href="#aufloten-des-mikroschalters" title="Permanent link">#</a></h2>
+<p>Im oberen linken Eckbereich der Hauptplatine ist die Installation eines kleinen Mikroschalters bzw. Tastschalters vorgesehen.</p>
+<p>Beachten Sie, dass der Mikroschalter nicht ganz seitengleich ist. Die obere und untere Seite des kleinen Vierecks ist leicht länger als die Seiten. Setzen Sie den Schalter so ein, dass die kurzen Seiten nach links und rechts der Hauptplatine weisen. Die kleinen Beinchen sollten ohne Gewalt in die Lötaugen passen.</p>
+<p><img src="images/RX_PCB_abstract_placement_microswitch.png" alt="Positionierung des Mikroschalters" width="800" /></p>
+<h2 id="aufloten-der-netzteil-buchse">Auflöten der Netzteil-Buchse<a class="headerlink" href="#aufloten-der-netzteil-buchse" title="Permanent link">#</a></h2>
+<p><img src="images/RX_PCB_abstract_placement_power_connector.png" alt="Positionierung der Stromanschlussbuchse" width="800" /></p>
+<p>Die Position der Buchse für das Stromanschlusskabel des Netzteils ist leicht anhand der größeren Lötaugen zu erkennen. Verwenden Sie beim Anlöten der Buchse ausreichend Lötzinn.</p>
+<p><img src="images/RX_Base_power_socket.jpg" alt="Ansicht der Stromanschlussbuchse" width="450" /></p>
+<h2 id="aufloten-des-spannungswandlers">Auflöten des Spannungswandlers<a class="headerlink" href="#aufloten-des-spannungswandlers" title="Permanent link">#</a></h2>
+<p>In folgender Grafik ist die zukünftige Position des Spannungswandlers gezeigt. Nehmen Sie die Modulplatine des LM2596 Spannungswandlers aus der Packung. Es ist das relativ große Bauteil, mit Kondensatoren und einem blauen Kästchen.</p>
+<p><img src="images/RX_PCB_abstract_placement_power_converter.png" alt="Positionierung des LM2596 Spannungswandlers" width="800" /></p>
+<p><strong>Vorbereiten des Spannungswandlers</strong></p>
+<p>Vier Stiftkontakte werden vor dem Anlöten des Spannungswandlers in jede Ecke der Spannungswandlerplatine eingesteckt, als Abstandshalter und Einfädelhilfe. Verlöten Sie sie noch nicht, sondern platzieren Sie den Spannungswandler mit losen Stiften auf der Hauptplatine. Erst dann verlöten Sie die Ecklötstellen. Drehen Sie dann die Hauptplatine und löten Sie von unten die Stiftkontakte in der Hauptplatine fest.</p>
+<p><img src="images/RX_Base_power_converter_distance_pin.jpg" alt="Stiftkontakte als Abstandhalter zum Spannungswandler-Modul" width="450" /></p>
+<h3 id="einstellen-des-spannungswandler-moduls-lm2596s">Einstellen des Spannungswandler-Moduls LM2596S<a class="headerlink" href="#einstellen-des-spannungswandler-moduls-lm2596s" title="Permanent link">#</a></h3>
+<p>Das Spannungsregler-Modul LM2596 <strong>muss</strong> vor der Inbetriebnahme / dem Einsetzen des GSM-Modems auf eine für das GSM-Modem geeignete Spannung eingestellt werden. Gemäß den Hinweisen im <a href="https://simcom.ee/documents/SIM800L/SIM800L%28MT6261%29_Hardware%20Design_V1.01.pdf">Hardware Design Guide</a> für das SIM 800L Modul (S.20, Absatz 4.1) akzeptiert das GSM-Modem eine Spannung von 3,4 bis 4,4 V. Wir werden das Spannungswandler-Modul auf 3.80 Volt einstellen.</p>
+<p>Nehmen Sie Ihr Digitales-Multimeter, stellen es ein auf die Funktion zur Messung von Stromspannungen im Bereich bis 20V (Symbol <strong>V&#9107;</strong> und  die Zahl <strong>"20"</strong>) und schließen Sie die Prüfspitzen an den Ausgang des LM2596 Moduls an.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Sollten Sie das Spannungswandler-Modul bereits auf die Basis-Platine gelötet haben, dann können Sie einfach das mitgelieferte Netzteil anschließen um das Spannungswandler-Modul mit Strom zu versorgen. Wenn nicht, so müssen Sie z.B. mit einem Tischnetzgerät für eine kleine Eingangsspannung sorgen, vorzugsweise von 5V Gleichstrom.</p>
+</div>
+<p>Schließen Sie dann das Netzteil an indem Sie das Kabel mit dem Rundstecker in die Netzteilbuchse stecken und stecken Sie dann das Netzteil selbst in eine 240V Wechselstrom-Steckdose.</p>
+<p>Kontrollieren Sie die Anzeige Ihres Multimeters. Welche Spannung in Volt zeigt es an?</p>
+<p>Der Spannungswandler besitzt ein <a href="https://de.wikipedia.org/wiki/Potentiometer">Präzisions-Drehpotentiometer</a> zur Einstellung der Ausgangsspannung. Nehmen Sie einen kleinen Schlitzschraubendreher und drehen sie die kleine goldfarbene Schraube auf dem blauen Kästchen des Spannungswandlermoduls <em>gegen den Uhrzeigersinn</em> bis das Voltmeter eine Spannung von 3,80V anzeigt.</p>
+<p>Der Spannungswandler ist nun für den Betrieb des GSM-Modems eingestellt.</p>
+<h2 id="aufloten-der-kondensatoren">Auflöten der Kondensatoren<a class="headerlink" href="#aufloten-der-kondensatoren" title="Permanent link">#</a></h2>
+<p><img src="images/RX_PCB_abstract_placement_capacitors.png" alt="Positionierung der Kondensatoren" width="800" /></p>
+<p>In der Stromzufuhr des GSM-Modems befinden sich drei <a href="https://de.wikipedia.org/wiki/Elektrolytkondensator">Elektrolytkondensatoren</a> (auch "Elkos" genannt) als Puffer, um Schwankungen in der Stromversorgung des Modems auszugleichen.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warnung</p>
+<p><strong>Beachten Sie <em>unbedingt</em> die Polung der Kondensatoren!</strong> Der "helle" Pol des Kondensators muss mit dem Minuspol, und der "dunkle" Pluspol muss mit dem Pluspol, der Markierung "+" auf der Platine übereinstimmen! Der negative Pol des Kondensators ist mit einem hellen Strich gekennzeichnet auf dem ein stilisiertes "-" (minus) aufgedruckt ist. Sind die Beine unterschiedlich lang, so markiert das <em>kürzere Bein</em> den <em>Minuspol</em>. (Manchmal sind diese Farbgebungen genau umgekehrt, aber ein Strich oder zumindest das "-"-Minuszeichen markiert den Minuspol).</p>
+</div>
+<p>Nehmen Sie die drei Kondensatoren zur Hand. Der negative Pol des Kondensators ist mit einem hellen Strich gekennzeichnet auf dem ein stilisiertes "-" aufgedruckt ist. Es ist die Seite mit dem kürzeren Bein. Platzieren Sie die Kondensatoren sie der Größe nach auf der Platine und löten Sie die Beinchen fest. Die Positionen sind mit Kreisen gekennzeichnet. Die eine Hälfte dieser Kreise ist weiß ausgefüllt. Hier muss das negative Beinchen eingesteckt werden.</p>
+<h2 id="anloten-des-rxb6-funkempfangers">Anlöten des RXB6 Funkempfängers<a class="headerlink" href="#anloten-des-rxb6-funkempfangers" title="Permanent link">#</a></h2>
+<p><img src="images/RX_PCB_abstract_placement_rxb6_radio_receiver.png" alt="Positionierung des RXB6 Funkempfängers" width="800" /></p>
+<p>Wir werden das <em>RXB6 Superheterodyne</em> Funkempfängermodul vertikal im oberen Bereich der Hautplatine der RX Base Basisstation anbringen. Vorher müssen wir allerdings die Antenne anlöten und dazu bedarf es einer kleinen Vorarbeit.</p>
+<p><strong>Vorbereiten des RXB6 Moduls</strong></p>
+<p>Erhitzen Sie den Stiftkontakt der mit "Ant" markiert ist und ziehen Sie mit einer Zange den Stiftkontakt heraus. Wir werden nun an dieser Stelle, um 90 Grad gedreht, eine Drahtantenne einlöten.</p>
+<p>Nehmen Sie einen der vorbereiteten Drähte aus der Packung. Entsprechend einem Viertel der Wellenlänge von 433MHz ist der Draht genau 17,3cm lang. Stecken Sie ihn auf der Seite des RXB6 Moduls, auf der Komponenten sind, durch das gerade entlötete Lötauge. Erhitzen Sie, um das zu ermöglichen, eventuell die Lötstelle erneut. Verlöten Sie die Antenne mit dem Modul</p>
+<p><img src="images/RX_Base_rxb6_antenna_soldering.jpg" alt="Zwei Bilder, die das Einlöten der Antenne in das RXB6 Modul zeigen" width="800" /></p>
+<p><strong>Anlöten des Moduls</strong></p>
+<p>Stecken Sie dann das RXB6 Modul durch die 7 Lötaugen an der Oberseite der Hauptplatine - wie auf den Bildern zu sehen - und löten Sie es fest.</p>
+<p>Der Aufbau der <em>RX Base</em> Hauptplatine ist damit abgeschlossen:</p>
+<p><img src="images/RX_Base_done.jpg" alt="Ansicht des vollständigen RX Base ohne aufgesteckte Module" width="800" /></p>
+<h2 id="anloten-der-stiftleisten-an-das-wemos-d1-mini-kompatible-modul">Anlöten der Stiftleisten an das Wemos D1 Mini kompatible Modul<a class="headerlink" href="#anloten-der-stiftleisten-an-das-wemos-d1-mini-kompatible-modul" title="Permanent link">#</a></h2>
+<p>Nehmen Sie zwei 8er Stiftleisten aus der Verpakcung und löten Sie sie auf beide Seiten des Moduls. Achten Sie darauf, die Platine des Moduls richtig herum mit Stiften zu versehen, d.h. die Stifte müssen auf der Seite abstehen, auf der <em>nicht</em> der viereckige silberne Kasten des ESP8266 Chips aufgebracht ist. Vergleichen Sie dazu die Fotos in dieser Anleitung.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Es ist wichtig, dass Sie die Stifte gerade ausrichten und festlöten, damit das Modul später gut in die Buchsenleiste der Hauptplatine gepresst werden kann. Da wir im vorherigen Schritt bereits die Buchsenleisten auf der <em>RX Base</em> Hauptplatine installiert haben, könne Sie die Stifte einfach schon einstecken, mit den langen Enden zuerst. Legen bzw. stecken Sie dann das noch unverlötete Wemos D1 Mini kompatible Modul auf die gerade eingesteckten Stifte. Auf diese Weise fixieren Sie die Stifte beim Löten genau in der richtigen Position.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Tipp</p>
+<p>Ein anderer Trick um ein gutes Ergebnis zu erzielen und die Stifte möglichst gerade auszurichten, ist die Stiftleisten in ein "Breadboard" (eines dieser farbigen, meist weißen, Prototyping-Boards, wie sie es vermutlich aus einem Arduino Experiementierkasten bereits besitzen) zu stecken. Wenn Sie dann die Platine des Pro Mini Moduls auf die Stifte legen und die Kontakte verlöten, sind im Ergebnis die Stifte schön gerade ausgerichtet. Und wenn Ihnen ein ebenso gerade Ergebnis mit den Buchsen gelungen ist, werden die Stifte gut passen.</p>
+</div>
+<h2 id="anloten-der-stiftleisten-an-das-sim800l-gsm-modem">Anlöten der Stiftleisten an das SIM800L GSM-Modem<a class="headerlink" href="#anloten-der-stiftleisten-an-das-sim800l-gsm-modem" title="Permanent link">#</a></h2>
+<p>Nehmen Sie passende Stiftleisten aus der Verpackung. Belegen Sie die Seite der Platine, auf der der mit "ANT" beschriftete Antennenanschluss ist mit einer 5er Stiftleiste. Löten Sie auf der gegenüberliegenden Seite ruhig ebenfalls alle sechs Pinne ein - zwar werden wir sie nur zum Halten des Moduls verwenden, aber es ist durchaus sinnvoll und einfacher, die Seite ebenfalls voll mit Pins zu verlöten.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Beachten Sie die Tipps zum geraden Einlöten der Stifte im vorherigen Schritt.</p>
+</div>
+<h2 id="anstecken-der-antenne-an-das-sim800l-gsm-modem">Anstecken der Antenne an das SIM800L GSM-Modem<a class="headerlink" href="#anstecken-der-antenne-an-das-sim800l-gsm-modem" title="Permanent link">#</a></h2>
+<p>Im Baukasten enthalten ist eine kleine PCB-Antenne, die über einen u.Fl Steckkontakt an den Antennenausgang des SIM800L Moduls angeschlossen wird. Das anbringen einer geeigneten Antenne ist für den erfolgreichen Betrieb des GSM-Modems unbedingt erforderlich.</p>
+<p>Klicken Sie den kleinen goldenen Steckkontakt des Kabels der Antenne auf den entsprechenden Gegenkontakt auf dem SIM800L Modul. Mit etwas Kraft schnappt der Kontakt plan ein.</p>
+<p>Achten Sie darauf, die Antenne etwas entfernt von der Hauptplatine zu platzieren, um Störungen zu vermeiden. Ein guter Platz ist in der ganz oben rechten Ecke über der Hauptplatine, an der keine Bauteile aufgebracht sind.</p>
+<div class="admonition info">
+<p class="admonition-title">Wichtig</p>
+<p>Das GSM-Modem ist in der Lage, seine Abstrahlintensität zu regeln und wird seine Abstrahlleistung bis auf ein Maximum erhöhen, wenn der Empfang schlecht ist. Betreiben Sie das Modem daher nie ohne eine Antenne angeschlossen zu haben - das Modul könnte sonst Schaden nehmen.</p>
+</div>
+<h3 id="einsetzen-der-sim-karte-nicht-im-lieferumfang-enthalten">Einsetzen der SIM-Karte (Nicht im Lieferumfang enthalten)<a class="headerlink" href="#einsetzen-der-sim-karte-nicht-im-lieferumfang-enthalten" title="Permanent link">#</a></h3>
+<p>Das GSM-Modem der Basisstation ist in der Lage eine Verbindung zum GSM-Mobilfunknetz aufzubauen. So ist es möglich, Kurznachrichten und Anrufe an Mobilfunkteilnehmer abzusetzen.  Für den Betrieb des GSM-Modems wird eine SIM-Karte eines Mobilfunkanbieters benötigt. Diese ist nicht im Lieferumfang enthalten.</p>
+<p>Zwar kann die Anlage kann auch ohne SIM-Karte betrieben werden, jedoch erfolgt dann im Meldefall keine Alarmierung über das Mobilfunknetz!</p>
+<p>Wenn Sie eine Prepaid-SIM-Karte verwenden, denken Sie bitte daran, das auf der Karte verfügbare Guthaben regelmäßig zu überprüfen. Außerdem müssen die meisten Prepaid-Karten  in bestimmten Zeiträumen kostenpflichtig genutzt werden, sonst werden sie gesperrt. In­formieren Sie sich also bei Ihrem Mobilfunkanbieter über diese Modalitäten und etwaige  Fristen.</p>
+<p>Vor der ersten Nutzung der SIM-Karte muss diese durch Eingabe einer Codenummer (PIN) entsperrt werden. Die Firmware der Basisstation übernimmt diesen Vorgang für Sie, allerdings muss diese Nummer in der Software vor dem Aufspielen (flashen) des Basisstations-Mikrokontrollers eingegeben sein.</p>
+<p>Achten Sie darauf, die korrekte PIN zu verwenden. Wenn Sie die PIN 3 mal falsch eingegeben haben, kann die PIN nicht mehr einfach entsperrt werden. Wenden Sie sich in diesem Fall an Ihren Mobilfunkanbieter, um die Sperre aufzuheben. Bei der Fehlersuche im Umgang mit der SIM-Karte kann es hilfreich sein, die SIM-Karte in ein Mobiltelefon einzusetzen und ihre korrekte Funktion zu überprüfen.</p>
+<h2 id="vorbereiten-der-arduino-ide">Vorbereiten der Arduino IDE<a class="headerlink" href="#vorbereiten-der-arduino-ide" title="Permanent link">#</a></h2>
+<p>Bisher haben wir die Arduino IDE genutzt, um einen Programmcode auf eine Arduino-kompatiblen Mikrocontroller aufzuspielen. Jetzt müssen wir die Arduino IDE auf das Verbinden mit einem ESP8266-basierten Microcontroller vorbereiten.</p>
+<p>Libraries installieren</p>
+<p>Plattform umschalten, Baud zahl einstellen, verbinden über USB (nicht in der Basis eingesteckt! nicht über das netzteil mit Spannung versorg!)</p>
+<h2 id="aufspielen-der-rx-base-firmware">Aufspielen der <em>RX Base</em> Firmware<a class="headerlink" href="#aufspielen-der-rx-base-firmware" title="Permanent link">#</a></h2>
+<h2 id="einstecken-des-mikrocontrollers-und-gsm-modems-auf-die-hauptplatine">Einstecken des Mikrocontrollers und GSM-Modems auf die Hauptplatine<a class="headerlink" href="#einstecken-des-mikrocontrollers-und-gsm-modems-auf-die-hauptplatine" title="Permanent link">#</a></h2>
+<p>Nun ist der <em>Wemos D1 Mini</em> kompatible <em>ESP8266</em> Mikrocontroller mit einer Software ausgestattet und das SIM800L GSM-Modem sollte einsatzbereit sein. Stecken Sie beide  Module an die vorgesehenen Plätze.</p>
+<p><img src="images/RX_Base_done_w_modules.jpg" alt="Ansicht des vollständigen RX Base, in einer früheren Hardware Version und mit einer Helixantenne" width="800" /></p>
+<p>Auf folgendem Bild können Sie sehen, wie die ansonsten elektrisch unverbundene 2-er Buchsenleisten im unteren Bereich des GSM-Moduls nur dazu dient, das Modul auf der Hauptplatine zu befestigen:</p>
+<p><img src="images/RX_Base_SIM800L_placement_w_stabilisation_sockets.jpg" alt="Stiftkontakte als Abstandhalter zum Spannungswandler-Modul" width="450" /></p>
+<h2 id="checkliste-nach-dem-bau">Checkliste nach dem Bau<a class="headerlink" href="#checkliste-nach-dem-bau" title="Permanent link">#</a></h2>
+<p>Überprüfen Sie diese Schritte noch einmal <strong>vor dem ersten Einstecken</strong> des Netzteils!</p>
+<div class="admonition warning">
+<p class="admonition-title">Warnung</p>
+<p>Jetzt aber wirklich... Überprüfen Sie diese Schritte noch einmal <strong>vor dem ersten Einstecken</strong> des Netzteils!</p>
+</div>
+<ul>
+<li>Wurde der LM2596 <strong>Spannungswandler eingestellt</strong>? Auf eine Spannung zwischen 3,8 und 4,0 Volt?</li>
+<li>Sind die großen zylindrischen <strong>Kondensatoren korrekt gepolt</strong>? Vergleichen Sie die Markierungen auf den Kondensatoren mit den Markierungen auf der Leiterplatte.</li>
+<li>Ist die <strong>Antenne</strong> des SIM800L GSM-Modems <strong>eingesteckt</strong>?</li>
+<li>Ist der <strong>USB-Anschluss</strong> des Wemos D1 Mini kompatiblen Modules <strong>unbelegt</strong>? Steckernetzteil und USB-Anschluss dürfen nie zugleich benutzt werden.</li>
+</ul>
+<p>Die Basisstation ist nun einsatzbereit. Lesen Sie jetzt den Abschnitt zum Aufstellen der Sensorknoten und der Basisstation.</p>
+<h2 id="debug-interface-der-basisstation-rx-base">Debug-Interface der Basisstation RX Base<a class="headerlink" href="#debug-interface-der-basisstation-rx-base" title="Permanent link">#</a></h2>
+<p>Mit der standard Firmware gibt das <em>Wemos D1 Mini</em> kompatible Modul über seine seriellen Pins Debug-Informationen aus. Standardmäßig ist der serielle Port auf 115200 Baud eingestellt und kann z.B. mit dem in die <em>Arduino IDE</em> eingebauten Seriellen Monitor mitgelesen werden.
+Zum Anschluss der Basisstation an Ihren Computer benötigen Sie einen USB auf TTL Serial-Adapter.
+Je nachdem wie Sie Ihre Basisstation aufgebaut bzw. je nachdem wie sie Pins an das Wemos D1 Mini Modul angelötet haben, können Sie entweder die seriellen Anschlüsse des D1 mit Jumper-Stecker-Kabeln anbinden, oder Sie stecken Jumperkabel mit Buchsen auf die drei als Debug-Port optional auflötbaren Pins der Platine der Basistation (zu finden in der Nähe des USB Anschlusses des D1).
+Schließen sie nie das Netzteil und den USB-Anschluss des Wemos D1 Mini gleichzeitig an! So auch nicht jetzt, nutzen Sie zur Spannungsversorgung das Netzteil der Basistation, lassen Sie den USB-Anschluss des D1 unverbunden.</p>
+<p>Verbinden Sie den Masseanschluss des Adapters mit dem Massepin des Wemos D1 Mini.
+Verbinden Sie den mit TX beschrifteten Pin des USB-Adapters mit dem mit RX beschrifteten Pin des Wemos D1 Mini, entweder direkt am D1 oder am Pin des Debug-Port.
+Verbinden Sie den mit RX beschrifteten Pin des USB-Adapters mit dem mit TX beschrifteten Pin des Wemos D1 Mini, entweder direkt am D1 oder am Pin des Debug-Port.</p>
+<p>Der VCC (Pluspol, Strom) Pin des USB-Adapters bleibt unbelegt, sowohl 3.3V als auch 5V. Wir haben durch das Verbinden der Massen bereits die Voraussetzung geschaffen, dass es möglich ist, das Wemos D1 Mini mit dem Netzteil mit Spannung zu versorgen, während der USB-Adapter über den Computer Strom erhält.</p>
+<p>Wenn Sie am D1 nun einen Reset auslösen, sollten Debug-Informationen im seriellen Monitor mitgeschnitten werden können. Da die Standard-Firmware regelmäßig einen Zeitstempel ausgibt, kann es auch reichen, einfach kurz zu warten.</p>
+<h2 id="scharf-schalten-der-betrieb-ihres-tripwire-systems">Scharf schalten! - Der Betrieb Ihres Tripwire Systems<a class="headerlink" href="#scharf-schalten-der-betrieb-ihres-tripwire-systems" title="Permanent link">#</a></h2>
+<h3 id="aufstellen-der-tx-node-bewegungsmelder">Aufstellen der <em>TX Node</em> Bewegungsmelder<a class="headerlink" href="#aufstellen-der-tx-node-bewegungsmelder" title="Permanent link">#</a></h3>
+<p>Achten Sie darauf, die Funksensoren nicht auf, unter oder in unmittelbarer Nähe von großen Metallgegenständen oder elektrischen Störquellen aufzustellen, da sich sonst die Funkreichweite verringern kann oder ganz unterbrochen wird. Es ist sinnvoll, einige Probeauslösungen zu verursachen und zu testen, ob die Basisstation die Funkübertragung des Sensorknotens empfangen kann. Die Reichweite der Funksender beträgt in der Regel 7-20 Meter innerhalb eines normalen Hauses oder Wohnung.</p>
+<p>Der im TX Node Sensorknoten genutzte Bewegungsmelder ist ein passiv arbeitender Infrarotsensor, der auf Veränderungen der Wärmestrahlung im "Sichtfeld" des Sensors reagiert und dann wie ein Schalter ein Signal ausgibt. Jede schnellere Veränderung löst den Sensor aus. Stellen Sie den Sensor daher so auf, dass keine regelmäßigen Bewegungen oder ungewollte Umgebungsbewegungen den Sensor auslösen. Wenn Sie den Sensor also in Richtung eines Fensters ausrichten, so können Bewegungen außerhalb des überwachten Raumes die Sensorik auslösen. Wenn durch ein Fenster Sonnenlicht auf den beobachteten Bereich oder gar den Sensor selbst fällt, so kann ein Wechsel von Licht und Schatten den Sensor auslösen. Wenn Sie den Sensor auf Heizkörper oder Ventilatoren richten, so kann ein z.B. autmatisches Einschalten dieser Wärme- oder Bewegungsquellen den Sensor auslösen.</p>
+<h3 id="aufstellen-und-inbetriebnahme-der-rx-base-basisstation">Aufstellen und Inbetriebnahme der <em>RX Base</em> Basisstation<a class="headerlink" href="#aufstellen-und-inbetriebnahme-der-rx-base-basisstation" title="Permanent link">#</a></h3>
+<p>Da die Basisstation die Funkmeldungen aller aufgestellten Funksensoren empfangen muss, sollten Sie die RX Base an einem zentralen Ort mitten im Überwachungsbereich aufstellen. So ist es möglich, alle Funkstrecken möglichst kurz zu halten. Die Reichweite der Funksender beträgt in der Regel 7-20 Meter innerhalb eines normalen Hauses oder Wohnung.  Platzieren Sie die Basiseinheit dort, wo eine ordnungsgemäß in­stallierte und funktionierende Netzsteckdose mit 230 Volt bei 50 Hz zur Verfügung steht. Die Basisstation und damit das Netzteil dürfen nicht in feuchten Räu­men (z.B. im Keller, Badezimmer usw.) oder in unmittelbarer Nähe von Wärmequellen betrieben werden.</p>
+<p>Verbinden Sie das Kabel des Netzteils mit der Hauptplatine und stecken Sie das Steckernetzteil in eine geeignete Steckdose.</p>
+<p>Achten Sie darauf, dass die Basisstation die Funkübertragungen der Sensorknoten empfangen kann. Es ist sinnvoll, einige Probeauslösungen zu verursachen und zu testen, ob die Basisstation die Funkübertragung der Sensorknoten empfangen kann. Auch sollte die Basisstation nicht auf, unter oder in unmittelbarer Nähe von großen Metallgegenständen oder elektrischen Störquellen aufgestellt werden, da sich sonst die Funkreichweite verringern kann oder ganz unterbrochen wird.</p>
+<p>Da die Basisstation nicht nur Funkübertragungen der Sensorknoten empfängt, sondern auch eine Verbindung mit dem Mobilfunknetz aufbauen muss, gilt ähnliches für eine geeignete Aufstellung zur Verbindung mit dem GSM-Mobilfunknetz. Prüfen Sie also, dass am Aufstellungsort eine gute Verbindung zum GSM-Netz möglich ist, keine Störquellen oder Abschirmungen die Funkübetragung beeinträchtigen oder unterbrechen.</p>
+<p>Die Basistation ist eine wichtige Komponente des Systems an der Informationen der Sensorknoten zusammen laufen. Wählen Sie für ihre Aufstellung daher einen Ort innerhalb eines geschützten Bereichs, damit sich niemand unbefugtes der Basisstation nähern können um diese abzuschalten oder zu manipu­lieren.</p>
+<h3 id="steuerung-der-basisstation-uber-das-web-interface">Steuerung der Basisstation über das Web-Interface<a class="headerlink" href="#steuerung-der-basisstation-uber-das-web-interface" title="Permanent link">#</a></h3>
+<p>Der ESP8266 Mikronontroller der Basisstation hat die Möglichkeit, sich an einem bestehenden WLAN-Netz (Wireless LAN, WiFi) anzumelden. Die Standard-Firmware nutzt die Möglichkeit, ein eigenes WLAN-Netz aufzubauen, an dem siech wiederum andere Computer anmelden können <em>nicht</em>.</p>
+<p>Nach dem Start der Basisstation aktiviert die Standard-Firmware die WLAN-Funkeinheit (WLAN-Radio) und verbindet sich mit dem im Programmcode eingestellten (SSID, Passwort, etc.) WLAN. Ebenfalls im Programmcode wird eine lokale IP-Adresse festgelegt, unter der sich die Basisstation im Netz anmeldet. (Der Bezug einer automatischen IP-Adresse über DHCP ist möglich, derzeit aber nicht genutzt.) Nach etwa einer Minute ist die Basisstation dann unter dieser Adresse von jedem anderen Computer innerhalb dieses lokalen Netzwerks erreichbar.</p>
+<p>Geben Sie die IP-Adresse der Basisstation im Browser ein, z.B.:</p>
+<p>http://192.168.1.190</p>
+<p>TODO:Bild vom Browser und der UI</p>
+<p>Sie sehen nun die Web-Oberfläche (Web-Interface) der Basisstation und damit des Tripwire Systems. Sind bereits Funknoten in Funkreichweite der Basisstation aktiviert und mit dem Startvorgang fertig, so senden Sie einmalig ihren Batteriestand und "melden" sich so bei der Basisstation "an".</p>
+<p>Im oberen Bereich des Interface sehen Sie die Statusinformationen des Systems. Der Betriebsmodus ist nach dem Einschalten auf "AUS".</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Die Standard-Tripwire Firmware verlangt kein vorheriges "Anmelden" oder "pairen" von Funkknoten. Jedes Funksignal, dass den Funkkonventionen des Tripwire-eigenen simplen Funkprotokolls entspricht, wird verarbeitet. Eine Batteriespannungsmeldung führt zu einem Eintrag in der Liste der verfügbaren Knoten im Speicher der Basisstations-Software - und damit zu einem Eintrag in der Tabelle der Web-Oberfläche und in versendeten Status-SMS. Eine Alarmmeldung eines Funknotens führt zur Verarbeitung eines Alarmereignisses in der Basisstation, unabhängig davon, ob der Knoten vorher Batteriestandswerte oder überhaupt irgendeine Funkkommunikationhergestellt hatte.</p>
+</div>
+<h3 id="fernbedienung-der-basisstation-per-mobiltelefon">Fernbedienung der Basisstation per Mobiltelefon<a class="headerlink" href="#fernbedienung-der-basisstation-per-mobiltelefon" title="Permanent link">#</a></h3>
+<p>Sie können die Basistation der Anlage per Mobiltelefon sowohl anrufen als auch Kurznachrichten (SMS) an sie zu senden. Per Anruf ist es möglich, Auskunft über den Status des Systems zu erhalten - die Anlage nutzt dazu einfache Tonfolgen.</p>
+<p>Über den Versand von festgelegten Befehlen als Kurznachricht (SMS) an die Anlage, können  sie die Anlage im Fernzugriff scharf schalten, ausschalten, Statusreports anfordern sowie einen ausgelösten Alarm zurücksetzen.</p>
+<p><strong>Die Befehle:</strong></p>
+<p>Befehle sind "case insensitive", d.h. die Groß- und Kleinschreibung wird nicht beachtet. Die Firmware filtert alle Buchstaben zu Kleinbuchstaben. Die folgenden Befehle schicken Sie bitte ohne die hier angegebenen Anführungszeichen, als einzigen Inhalt der SMS, and die Mobilfunknummer der von Ihnen eingesetzten SIM-Karte.</p>
+<ul>
+<li><strong>"scharf"</strong> - Die Basistation wird scharf geschaltet. Alle bisher im Freilauf (dem unscharfen Modus) eingegangenen Alarmmeldungen werden gelöscht (zurückgesetzt, reset). Alle von nun an eingehenden Meldungen der Funksensoren lösen einen Alarm aus, d.h. der Alarmton an der Basistation wird ausgegeben und die Benachrichtungs-SMS wird versand. Jede weitere Alarmmeldung der Sensorknoten löst eine weitere SMS aus.</li>
+<li><strong>"status"</strong> - Die Basisstation wird aufgeforder, eine kurze SMS mit Statusinformatione zu senden: Alarmstatus, sowie die Zahl und der Alarmstatus der angemeldeten Funksensoren.</li>
+<li><strong>"aus"</strong> - Die Basisstation wir unscharf geschaltet. Bestehende Alarme werden zurückgesetzt. In diesem "Freilauf"-Modus werden Alarmmeldungen der Funksensoren zwar protokolliert und auch in der Weboberfläche angezeigt, jedoch findet keine Ausgabe des Alarmtons statt und es werden keine Benachrichtigungen verschickt.</li>
+<li><strong>"reset"</strong> - Alle bisher eingegangenen Alarmmeldungen werden gelöscht (zurückgesetzt, reset), unabhängig vom Betriebsmodus des Systems, also sowohl im scharfen wie auch im unscharfen Modus.</li>
+</ul>
+<p>Jede Veränderung des Betriebsmodus sowie jeder Alarm werden - unabhängig vom Betriebsmodus im Protokoll der Anlage aufgezeichnet. Der Befehl "reset" oder "aus" verändert das Protokoll nicht.</p>
+<p><img src="images/RX_android_sms_screenshot.png" alt="Steureung der RX Base über SMS Nachrichten" width="360" /></p>
+<h3 id="steuerung-der-basisstation-uber-die-serielle-schnittstelle-debug-interface">Steuerung der Basisstation über die serielle Schnittstelle (Debug-Interface)<a class="headerlink" href="#steuerung-der-basisstation-uber-die-serielle-schnittstelle-debug-interface" title="Permanent link">#</a></h3>
+<p>Mit der Standard Firmware gibt das Wemos D1 Mini Modul über seine seriellen Pins Debug-Informationen aus. Standardmäßig ist der Serielle Port auf 115200 Baud eingestellt und kann z.B. mit dem in die Arduino IDE eingbauten seriellen Monitor mitgelesen werden.</p>
+<p>Die serielle Schnittstelle verarbeitet auch eingehende Befehle und gibt darauf hin Antworten aus. Die Befehle sind die selben wie sie der Fernzugang per Mobiltelefon (SMS) verwendet. Lediglich die Antworten unterscheiden sich leicht, da, anders als bei SMS, die serielle Verbindung auch längere Antworten ohne Mehrkosten ausgeben kann.</p>
+<h2 id="fehlersuche">Fehlersuche<a class="headerlink" href="#fehlersuche" title="Permanent link">#</a></h2>
+<h3 id="rx-base">RX Base<a class="headerlink" href="#rx-base" title="Permanent link">#</a></h3>
+<p><strong>Beim Mobilfunk-Verbindungsaufbau macht der Buzzer Geräusche und die LED leuchtet erratisch</strong></p>
+<p>Die GSM-Antenne ist zu nah an der Elektronik. Versuchen sie eine andere, weiter von der Hauptplatine entfernte Position für die Antenne zu finden. Versuchen Sie auch einen anderen Aufstellungsort der <em>RX Base</em> Station, damit das GSM-Modem eine geringere Abstrahlleistung wählen kann.</p>
+<h3 id="tx-node">TX Node<a class="headerlink" href="#tx-node" title="Permanent link">#</a></h3>
+<p><strong>Es tut sich überhaupt nichts. Keine der LEDs leuchtet.</strong></p>
+<p>Prüfen Sie ob das Batteriefach überhaupt eine Spannung ausgibt. Manchmal haeb einezelne Batteriekontakte im Batteriefach durch fertigungsbedingte Ungenauigkeiten keinen Kontakt und der Stromkreis ist unterbrochen. Nutzen Sie ein Multimeter an den Ausgangskontakten des Batteriefachs und bestätigen sie, dass bei eingeschaltetem Schalter eine Spannung anliegt.</p>
+<p><strong>Das Pro Mini startet, aber der PIR Sensor löst nicht aus</strong></p>
+<p>Nutzen Sie ein Multimeter und prüfen Sie, ob der Spannungsregler des PIR Moduls 5V Spannung bereitstellt. Wenn das Modul gemäß der Anleitung eingebaut wurde, befindet sich der Pluspol des Ausgangs im oberen Bereich des Moduls. Legen Sie einen Prüfkontakt dort an, und den Minuskontakt an einer der Masse-Lötstellen. Nutzen Sie dann einen Steckkontakt-Pin o.ä. um auch sicher zu stellen, dass Spannung an den drei Steckkontakten, in die das PIR-Modul eingesteckt wird, ankommt.</p>
+<p><strong>Nachdem der PIR-Sensor ausgelöst hat, löst er von alleine immer wieder aus</strong></p>
+<p>Stellen Sie die Empfindlichkeit des Sensors in eine mittlere Position. Sie scheinen ein "sensibles Exemplar" erhalten zu haben. Versuchen Sie diesen Sensor an einem der anderen <em>TX Node</em> aus ihrem Set - manchmal bringt "Durchtauschen" etwas. Wenn immer wieder nur dieser eine Sensor in diese Art Feedback-Schleife verfällt, tauschen Sie, wenn möglich, das Modul aus. Sie können bei uns einen Ersatz erhalten.</p>
+<h2 id="technische-daten">Technische Daten<a class="headerlink" href="#technische-daten" title="Permanent link">#</a></h2>
+<h3 id="rx-base_1">RX Base<a class="headerlink" href="#rx-base_1" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Abmessungen</strong>, ca, ohne Antenne: <strong>10cm x 7,5cm x 3cm</strong> (Breite x Tiefe x Höhe)</li>
+<li><strong>Stromversorgung:</strong> Steckernetzteil, <strong>5V 2A</strong> Gleichstrom (DC)</li>
+</ul>
+<h3 id="tx-node_1">TX Node<a class="headerlink" href="#tx-node_1" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Abmessungen</strong>, ca, ohne Antenne: <strong>5cm x 7cm x 4cm</strong> (Breite x Tiefe x Höhe)</li>
+<li><strong>Stromversorgung:</strong> Alkaline Batterien <strong>3x AAA</strong> (2,7V - 4,5V)</li>
+</ul>
+<h2 id="rechtliche-hinweise">Rechtliche Hinweise<a class="headerlink" href="#rechtliche-hinweise" title="Permanent link">#</a></h2>
+<p>Diese Dokumentation sowie die Designs der Hard- und Software unterliegen dem Urheberrecht des <em>DIY Home Security</em> Projektes, einem Elektronikprojekt, dass angeboten und vertrieben wird von der Clipland GmbH.</p>
+<p>Alle Materialien und das gesamte Produkt sind nur für den privaten, persönlichen und nicht-kommerziellen Gebrauch bestimmt.</p>
+<p>Bitte lesen Sie die im Eingang dieser Anleitung aufgeführten <em>Warnhinweise</em> und <em>Hinweise</em>!</p>
+<h3 id="veranderungen-anpassungen-und-kollaboration">Veränderungen, Anpassungen und Kollaboration<a class="headerlink" href="#veranderungen-anpassungen-und-kollaboration" title="Permanent link">#</a></h3>
+<p>Dieser Baukasten richtet sich an Bastler und versteht sich als Beitrag zum <em>Maker-Movement</em>, einem Begriff, der das Hobby beschreibt, Dinge selbst zu konstruieren, zu bauen und zu verändern. Schon das Format des <em>Baukastens</em> birgt die Möglichkeit, dass der Aufbau dieses Produktes vermutlich zu immer leicht unterschiedlichen Ergebnissen führt. Die vorliegende Anleitung weist sie auf wichtige Details hin und gibt einen Aufbau vor. Und obwohl Sie frei entscheiden können, eigen­mächtige Veränderungen oder Umbauten vorzunehmen, so akzeptieren Sie bitte, dass Änderungen, die nicht in diesem Handbuch beschrieben sind, als nicht bestimmungsgemäß gelten müssen und auf eigenen Gefahr geschehen.</p>
+<p>Die Software zum Betrieb der aus dem Baukasten hervorgehenden Anlage wird Ihnen über die Kollaborationsplattform <a href="https://github.com/">github</a> zugänglich gemacht. Wir laden Sie ausdrücklich dazu ein, an der Weiterentwicklung und Verbesserung des Programmcodes wie auch der Hardware mitzuwirken. Die Software wie auch die Hardware (zumindest die Tripwire PCBs) sind open-source, können  also von Ihnen eingesehen werden und kommentiert bzw. verändert werden. Weiter haben wir diese Komponenten unter eine Lizenz gestellt, die Ihnen das verändern, verbreiten, forken der Code-Repositorien, Kopieren der Dateien etc. gestattet. Allerdings ist die kommerzielle Nutzung dieser Komponenten oder Rechte nicht gestattet und die Komponenten dürfen in keiner Form, veränderter oder unverändert, von Ihnen kommerziell verwertet werden. Bitte lesen Sie zu den Details die Lizenzbestimmungen im vollen Wortlaut.</p>
+<h3 id="haftungsausschluss">Haftungsausschluss<a class="headerlink" href="#haftungsausschluss" title="Permanent link">#</a></h3>
+<p>Wir übernehmen keine Garantie für die Richtigkeit der Informationen, die sich auf technische Eigenschaften sowie die hier vorliegende Dokumentation beziehen. Das in dieser Dokumentation beschriebene Produkt, seine Komponenten und dessen Zubehör unterliegen einer ständigen Verbesserung und Weiter­entwicklung. Aus diesem Grund behalten wir uns das Recht vor, Komponenten, Zubehör, technische Spezifikationen sowie die hier vor­liegende Dokumentation des Produkts ohne vorherige Ankündigung je­derzeit zu ändern.</p>
+<h3 id="alterseinschrankung">Alterseinschränkung<a class="headerlink" href="#alterseinschrankung" title="Permanent link">#</a></h3>
+<p>Dieses Produkt richtet sich an Jugendliche und Erwachsene. Es darf nicht an Personen unter 14 Jahren abgegeben werden.</p>
+<p>Wenn sich Kinder in Ihrem Haushalt befinden, so sorgen sie bitte für eine sichere Verwahrung der Komponenten sowie der fertigen Aufbauten. Einzelteile sind z.T. sehr klein und könnten verschluckt werden! Die Inhaltsstoffe sind z.T giftig und bergen Gefahren! Auch mechanische Eigenschaften wie scharfe Kanten und spitze Enden bergen Gefahren! Stellen Sie bitte einen sorgsamen und verantwortungsvollen Umgang mit dem Produkt sicher.</p>
+<h3 id="recycling">Recycling<a class="headerlink" href="#recycling" title="Permanent link">#</a></h3>
+<p><img src="images/recycle.png" alt="Recycling von elektronischen Komponenten" width="75" /></p>
+<p>Elektrische und elektronische Geräte sowie Komponenten dürfen nicht über den Hausmüll entsorgt werden!</p>
+<p>Entsorgen Sie das Produkt am Ende seiner Lebensdauer gemäß den geltenden gesetzlichen Vorschriften. Zur Rückgabe sind Sammelstellen eingerichtet worden, an denen Sie Elektrogerätekostenlos abgeben können. Ihre Kommune informiert Sie, wo sich solche Sammelstellen befinden.</p>
+<h2 id="lizenzen">Lizenzen<a class="headerlink" href="#lizenzen" title="Permanent link">#</a></h2>
+<p>Teile des Projektes werden Ihnen unter Lizenzen zur Verfügung gestellt, die im Bezug auf Weitergabe und Bearbeitung tolerant ("permissive") sind - eine kommerzielle Nutzung jedoch ausschließen. Wenn dies auch nicht im engeren Sinne der Definition von <em>open source</em> entspricht (vielmehr handelt sich dann um "shared source"), so ermöglicht es Ihnen jedoch als Privatperson ohne Gewinnerzielungsabsichten, an der Verbesserung oder Weiterentwicklung der Komponenten mitzuwirken.</p>
+<h3 id="lizenz-der-hardware">Lizenz der Hardware<a class="headerlink" href="#lizenz-der-hardware" title="Permanent link">#</a></h3>
+<p>Das Design der Leiterplatten sowie der Hardware in weiterem Sinne wird Ihnen unter der <em>Creative Commons CC BY-NC-SA</em> Lizenz zur Verfügung gestellt. Der Lizenztext findet sich in den jeweiligen Projektarchiven.</p>
+<h3 id="lizenz-der-software">Lizenz der Software<a class="headerlink" href="#lizenz-der-software" title="Permanent link">#</a></h3>
+<p>Die Software zum Betrieb der Basisstation und der Sensorknoten (Firmware, Sketches) wird Ihnen unter der <em>GNU General Public License (GPLv3)</em> zur Verfügung gestellt. Der Lizenztext sowie der Software-Quelltext findet sich in den jeweiligen Projektarchiven.</p>
+<h3 id="lizenz-der-dokumentation">Lizenz der Dokumentation<a class="headerlink" href="#lizenz-der-dokumentation" title="Permanent link">#</a></h3>
+<p>Diese Dokumentation wird Ihnen unter der <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons CC BY-NC-SA 4.0</a> Lizenz zur Verfügung gestellt. Das bedeutet:</p>
+<p>Sie dürfen:</p>
+<ul>
+<li>Teilen - das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten</li>
+<li>Bearbeiten - das Material remixen, verändern und darauf aufbauen</li>
+</ul>
+<p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen solange Sie sich an die Lizenzbedingungen halten.</p>
+<p>Unter folgenden Bedingungen:</p>
+<ul>
+<li>
+<p>Namensnennung - Sie müssen angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden. Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung besonders.</p>
+</li>
+<li>
+<p>Nicht kommerziell — Sie dürfen das Material nicht für kommerzielle Zwecke nutzen.</p>
+</li>
+<li>
+<p>Weitergabe unter gleichen Bedingungen — Wenn Sie das Material remixen, verändern oder anderweitig direkt darauf aufbauen, dürfen Sie Ihre Beiträge nur unter derselben Lizenz wie das Original verbreiten.</p>
+</li>
+</ul>
+<p>Keine weiteren Einschränkungen — Sie dürfen keine zusätzlichen Klauseln oder technische Verfahren einsetzen, die anderen rechtlich irgendetwas untersagen, was die Lizenz erlaubt.</p>
+<h3 id="copyright">Copyright<a class="headerlink" href="#copyright" title="Permanent link">#</a></h3>
+<p>Copyright 2019 <a href="http://www.clipland.com/corporate/">Clipland GmbH</a>. All rights reserved.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <!--
+  Copyright (c) 2016-2019 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
+<footer class="md-footer">
+
+  <!-- Link to previous and/or next page -->
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+
+        <!-- Link to previous page -->
+        
+          <a href="../index.html"
+              title="Start"
+              class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+              rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back
+                    md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Zurück
+                </span>
+                Start
+              </span>
+            </div>
+          </a>
+        
+
+        <!-- Link to next page -->
+        
+      </nav>
+    </div>
+  
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+
+      <!-- Copyright and theme information -->
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 DIY Home Security (Clipland GmbH)
+          </div>
+        
+          <div class="md-footer-copyright__highlight">
+		<a href="https://github.com/diy-home-security/z-impressum">Impressum</a> &middot; <a href="https://github.com/site/terms">Nutzungsbedingungen</a> und <a href="https://github.com/site/privacy">Hinweise zum Datenschutz</a> des Hosters github
+          </div>
+        Docs built with <a href="https://www.mkdocs.org">MkDocs</a> and <a href="https://squidfunk.github.io/mkdocs-material/">Material</a>
+      </div>
+
+	<!-- Repository containing source -->
+	
+	<div class="footer-right">
+		<div class="md-flex__cell md-flex__cell--shrink">
+			<div class="md-header-nav__source">
+			
+
+
+  
+
+<a href="https://github.com/diy-home-security/Tripwire-Docs/" title="Quellcode" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    diy-home-security/Tripwire-Docs
+  </div>
+</a>
+			</div>
+		</div>
+	</div>
+	
+
+      <!-- Social links -->
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../assets/javascripts/lunr/lunr.de.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
